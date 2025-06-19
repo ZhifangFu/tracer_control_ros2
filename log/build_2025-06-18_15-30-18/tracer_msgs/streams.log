@@ -1,0 +1,272 @@
+[0.025s] Invoking command in '/root/tracer_control_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_msgs
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.288s] -- The CXX compiler identification is GNU 11.4.0
+[0.309s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.496s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.498s] -- Detecting C compile features - done
+[0.506s] -- Detecting CXX compiler ABI info
+[0.697s] -- Detecting CXX compiler ABI info - done
+[0.714s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.715s] -- Detecting CXX compile features
+[0.717s] -- Detecting CXX compile features - done
+[0.726s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.105s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.252s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.345s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.372s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.568s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.423s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.895s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.900s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.968s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.969s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.969s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.969s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.028s] -- Found PythonExtra: .so  
+[4.190s] -- Configuring done
+[4.321s] -- Generating done
+[4.356s] -- Build files have been written to: /root/tracer_control_ws/build/tracer_msgs
+[4.375s] Invoked command in '/root/tracer_control_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_msgs
+[4.379s] Invoking command in '/root/tracer_control_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_msgs -- -j12 -l12
+[4.497s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.530s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.562s] [  2%] Built target ament_cmake_python_symlink_tracer_msgs
+[5.241s] running egg_info
+[5.243s] creating tracer_msgs.egg-info
+[5.244s] writing tracer_msgs.egg-info/PKG-INFO
+[5.244s] writing dependency_links to tracer_msgs.egg-info/dependency_links.txt
+[5.245s] writing top-level names to tracer_msgs.egg-info/top_level.txt
+[5.245s] writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[5.251s] reading manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[5.252s] writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[5.350s] [  2%] Built target ament_cmake_python_build_tracer_msgs_egg
+[6.399s] [  2%] Built target tracer_msgs__cpp
+[6.426s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.426s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.426s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.453s] [  8%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/uart_tracer_motor_state__functions.c.o[0m
+[6.466s] [  9%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_light_state__functions.c.o[0m
+[6.470s] [ 11%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/uart_tracer_status__functions.c.o[0m
+[6.471s] [ 12%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_status__functions.c.o[0m
+[6.482s] [ 14%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_motor_state__functions.c.o[0m
+[6.483s] [ 15%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracer_msgs/msg/detail/tracer_light_cmd__functions.c.o[0m
+[6.672s] [ 16%] [32m[1mLinking C shared library libtracer_msgs__rosidl_generator_c.so[0m
+[6.776s] [ 16%] Built target tracer_msgs__rosidl_generator_c
+[6.803s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.806s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.808s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.649s] [ 23%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_light_cmd__type_support.cpp.o[0m
+[7.651s] [ 23%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_light_state__type_support.cpp.o[0m
+[7.655s] [ 26%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_motor_state__type_support.cpp.o[0m
+[7.657s] [ 26%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/uart_tracer_motor_state__type_support.cpp.o[0m
+[8.093s] [ 29%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_motor_state__type_support.cpp.o[0m
+[8.093s] [ 29%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/uart_tracer_motor_state__type_support.cpp.o[0m
+[8.205s] [ 30%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_motor_state__type_support.cpp.o[0m
+[8.302s] [ 32%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_motor_state__type_support.cpp.o[0m
+[8.422s] [ 33%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/uart_tracer_status__type_support.cpp.o[0m
+[8.432s] [ 35%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/uart_tracer_motor_state__type_support.cpp.o[0m
+[8.453s] [ 36%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_light_state__type_support.cpp.o[0m
+[8.461s] [ 38%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracer_msgs/msg/tracer_status__type_support.cpp.o[0m
+[8.553s] [ 39%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_light_cmd__type_support.cpp.o[0m
+[8.577s] [ 40%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/tracer_status__type_support.cpp.o[0m
+[8.583s] [ 42%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracer_msgs/msg/uart_tracer_status__type_support.cpp.o[0m
+[8.626s] [ 43%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_light_state__type_support.cpp.o[0m
+[8.653s] [ 45%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_light_cmd__type_support.cpp.o[0m
+[8.681s] [ 46%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_motor_state__type_support.c.o[0m
+[8.742s] [ 47%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_motor_state__type_support_c.cpp.o[0m
+[8.753s] [ 49%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/uart_tracer_motor_state__type_support.c.o[0m
+[8.769s] [ 50%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_c.so[0m
+[8.893s] [ 52%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_light_state__type_support.c.o[0m
+[8.912s] [ 52%] Built target tracer_msgs__rosidl_typesupport_c
+[8.943s] [ 53%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_light_cmd__type_support.c.o[0m
+[8.992s] [ 54%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_status__type_support.c.o[0m
+[9.065s] [ 56%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/uart_tracer_status__type_support.c.o[0m
+[9.145s] [ 57%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/uart_tracer_motor_state__type_support_c.cpp.o[0m
+[9.208s] [ 59%] [32m[1mLinking C shared library libtracer_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.210s] [ 60%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_light_state__type_support_c.cpp.o[0m
+[9.221s] [ 61%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/tracer_status__type_support.cpp.o[0m
+[9.221s] [ 63%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_light_cmd__type_support_c.cpp.o[0m
+[9.223s] [ 64%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracer_msgs/msg/detail/uart_tracer_status__type_support.cpp.o[0m
+[9.264s] [ 66%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/tracer_status__type_support_c.cpp.o[0m
+[9.323s] [ 67%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_cpp.so[0m
+[9.353s] [ 67%] Built target tracer_msgs__rosidl_typesupport_introspection_c
+[9.384s] [ 69%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/uart_tracer_status__type_support_c.cpp.o[0m
+[9.440s] [ 70%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/uart_tracer_motor_state__type_support.cpp.o[0m
+[9.441s] [ 70%] Built target tracer_msgs__rosidl_typesupport_cpp
+[9.469s] [ 71%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_light_state__type_support.cpp.o[0m
+[9.667s] [ 73%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_light_cmd__type_support.cpp.o[0m
+[9.779s] [ 74%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/tracer_status__type_support.cpp.o[0m
+[10.478s] [ 76%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.493s] [ 77%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.601s] [ 78%] [32mBuilding CXX object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracer_msgs/msg/detail/dds_fastrtps/uart_tracer_status__type_support.cpp.o[0m
+[10.716s] [ 78%] Built target tracer_msgs__rosidl_typesupport_introspection_cpp
+[10.718s] [ 78%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c
+[11.574s] [ 80%] [32m[1mLinking CXX shared library libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.782s] [ 80%] Built target tracer_msgs__rosidl_typesupport_fastrtps_cpp
+[11.838s] [ 80%] Built target tracer_msgs
+[11.898s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.411s] [ 81%] Built target tracer_msgs__py
+[14.465s] [ 84%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_light_cmd_s.c.o[0m
+[14.465s] [ 84%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_uart_tracer_motor_state_s.c.o[0m
+[14.467s] [ 85%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_light_state_s.c.o[0m
+[14.473s] [ 87%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_motor_state_s.c.o[0m
+[14.733s] [ 88%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_uart_tracer_status_s.c.o[0m
+[14.735s] [ 90%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracer_msgs/msg/_tracer_status_s.c.o[0m
+[15.017s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/libtracer_msgs__rosidl_generator_py.so[0m
+[15.137s] [ 91%] Built target tracer_msgs__rosidl_generator_py
+[15.191s] [ 94%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.192s] [ 94%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.207s] [ 95%] [32mBuilding C object CMakeFiles/tracer_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.494s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[15.495s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[15.517s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[15.591s] [100%] Built target tracer_msgs__rosidl_typesupport_introspection_c__pyext
+[15.597s] [100%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.618s] [100%] Built target tracer_msgs__rosidl_typesupport_c__pyext
+[15.653s] Invoked command in '/root/tracer_control_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_msgs -- -j12 -l12
+[15.679s] Invoking command in '/root/tracer_control_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_msgs
+[15.699s] -- Install configuration: ""
+[15.700s] -- Execute custom install script
+[15.700s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/ament_index/resource_index/rosidl_interfaces/tracer_msgs
+[15.725s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.h
+[15.747s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.h
+[15.774s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.h
+[15.802s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.h
+[15.833s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.h
+[15.857s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.h
+[15.882s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__functions.h
+[15.906s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__struct.h
+[15.928s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__type_support.h
+[15.950s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.h
+[15.978s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.h
+[16.010s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.h
+[16.036s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__functions.h
+[16.059s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__struct.h
+[16.083s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__type_support.h
+[16.108s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__functions.h
+[16.134s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__struct.h
+[16.156s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__type_support.h
+[16.180s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.202s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.h
+[16.241s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.h
+[16.264s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_motor_state.h
+[16.288s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.h
+[16.315s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_motor_state.h
+[16.338s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_status.h
+[16.360s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.sh
+[16.383s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.dsv
+[16.408s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_c.h
+[16.447s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_c.h
+[16.472s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_fastrtps_c.h
+[16.498s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_c.h
+[16.527s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_fastrtps_c.h
+[16.549s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_fastrtps_c.h
+[16.574s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.605s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_c.h
+[16.632s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_c.h
+[16.656s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_introspection_c.h
+[16.678s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_c.h
+[16.704s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_introspection_c.h
+[16.731s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_introspection_c.h
+[16.758s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.781s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__builder.hpp
+[16.807s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.hpp
+[16.830s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__traits.hpp
+[16.855s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.hpp
+[16.877s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__builder.hpp
+[16.902s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.hpp
+[16.925s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__traits.hpp
+[16.949s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.hpp
+[16.974s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__builder.hpp
+[17.000s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__struct.hpp
+[17.023s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__traits.hpp
+[17.044s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__type_support.hpp
+[17.070s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__builder.hpp
+[17.096s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.hpp
+[17.124s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__traits.hpp
+[17.147s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.hpp
+[17.170s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__builder.hpp
+[17.194s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__struct.hpp
+[17.218s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__traits.hpp
+[17.241s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__type_support.hpp
+[17.268s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__builder.hpp
+[17.288s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__struct.hpp
+[17.318s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__traits.hpp
+[17.344s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__type_support.hpp
+[17.369s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.390s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.hpp
+[17.412s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.hpp
+[17.434s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_motor_state.hpp
+[17.462s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.hpp
+[17.491s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_motor_state.hpp
+[17.513s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_status.hpp
+[17.540s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[17.561s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[17.585s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[17.614s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_cpp.hpp
+[17.634s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[17.657s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_fastrtps_cpp.hpp
+[17.678s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.702s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_cpp.hpp
+[17.725s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_cpp.hpp
+[17.747s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_introspection_cpp.hpp
+[17.771s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_cpp.hpp
+[17.793s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_introspection_cpp.hpp
+[17.819s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_introspection_cpp.hpp
+[17.841s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.sh
+[17.867s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.dsv
+[17.892s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/PKG-INFO
+[17.914s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/SOURCES.txt
+[17.936s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/dependency_links.txt
+[17.957s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/top_level.txt
+[17.984s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/__init__.py
+[18.006s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c
+[18.031s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.054s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.077s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/libtracer_msgs__rosidl_generator_py.so
+[18.102s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/__init__.py
+[18.128s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd.py
+[18.151s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd_s.c
+[18.173s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state.py
+[18.195s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state_s.c
+[18.221s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_motor_state.py
+[18.242s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_motor_state_s.c
+[18.264s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status.py
+[18.287s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status_s.c
+[18.310s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_motor_state.py
+[18.334s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_motor_state_s.c
+[18.358s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_status.py
+[18.383s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_status_s.c
+[18.404s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.427s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.452s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.474s] -- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.474s] -- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.475s] -- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.475s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerMotorState.idl
+[18.500s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerMotorState.idl
+[18.528s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.idl
+[18.549s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.idl
+[18.573s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.idl
+[18.593s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerStatus.idl
+[18.616s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerMotorState.msg
+[18.637s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerMotorState.msg
+[18.660s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.msg
+[18.682s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.msg
+[18.704s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.msg
+[18.727s] -- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerStatus.msg
+[18.748s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[18.749s]   ament_cmake_symlink_install_directory() can't find
+[18.749s]   '/root/tracer_control_ws/src/tracer_ros/tracer_msgs/include/'
+[18.749s] Call Stack (most recent call first):
+[18.749s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:398 (ament_cmake_symlink_install_directory)
+[18.749s]   cmake_install.cmake:46 (include)
+[18.749s] 
+[18.749s] [0m
+[18.752s] Invoked command in '/root/tracer_control_ws/build/tracer_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_msgs

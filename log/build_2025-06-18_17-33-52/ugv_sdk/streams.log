@@ -1,0 +1,83 @@
+[0.028s] Invoking command in '/root/tracer_control_ws/build/ugv_sdk': /usr/bin/cmake --build /root/tracer_control_ws/build/ugv_sdk -- -j12 -l12
+[0.209s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[0.213s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[0.235s] [ 10%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[0.237s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[0.238s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[0.246s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[0.274s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[7.521s] [ 28%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[7.651s] [ 42%] Built target ugv_sdk
+[7.729s] [ 46%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[7.731s] [ 53%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[7.731s] [ 53%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[7.732s] [ 57%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[7.744s] [ 60%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[7.747s] [ 64%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[7.752s] [ 67%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[7.752s] [ 71%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[8.855s] [ 75%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[9.263s] [ 75%] Built target demo_bunker_robot
+[11.300s] [ 78%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[11.435s] [ 82%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[11.537s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[11.596s] [ 85%] Built target demo_protocol_detector
+[11.623s] [ 89%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[11.742s] [ 89%] Built target demo_hunter_robot
+[11.780s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[11.851s] [ 92%] Built target demo_scout_mini_omni_robot
+[11.894s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[11.922s] [ 96%] Built target demo_robot_version
+[12.051s] [ 96%] Built target demo_scout_robot
+[12.134s] [ 96%] Built target demo_ranger_robot
+[12.208s] [100%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[12.443s] [100%] Built target demo_tracer_robot
+[12.476s] Invoked command in '/root/tracer_control_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /root/tracer_control_ws/build/ugv_sdk -- -j12 -l12
+[12.481s] Invoking command in '/root/tracer_control_ws/build/ugv_sdk': /usr/bin/cmake --install /root/tracer_control_ws/build/ugv_sdk
+[12.500s] -- Install configuration: "Release"
+[12.500s] -- Installing: /root/tracer_control_ws/install/ugv_sdk/lib/libugv_sdk.a
+[12.506s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk
+[12.506s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details
+[12.507s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+[12.507s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[12.507s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[12.507s] -- Installing: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[12.508s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[12.508s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[12.509s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[12.510s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[12.511s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[12.511s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[12.511s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[12.511s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[12.512s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[12.512s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[12.512s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[12.512s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[12.513s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[12.513s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[12.513s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+[12.513s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[12.513s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[12.513s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[12.513s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[12.514s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[12.514s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[12.514s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[12.514s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[12.514s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[12.514s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[12.514s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[12.515s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[12.515s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[12.516s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[12.517s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[12.518s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[12.518s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[12.520s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/utilities
+[12.520s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[12.521s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[12.521s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[12.521s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[12.522s] -- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[12.523s] Invoked command in '/root/tracer_control_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /root/tracer_control_ws/build/ugv_sdk

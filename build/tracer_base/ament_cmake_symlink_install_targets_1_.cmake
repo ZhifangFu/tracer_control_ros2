@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/tracer_control_ws/build/tracer_base/libtracer_messenger.a" "TARGETS" "tracer_messenger" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

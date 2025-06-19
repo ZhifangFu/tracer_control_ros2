@@ -1,0 +1,550 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (tracer_msgs) JobQueued: {'identifier': 'tracer_msgs', 'dependencies': OrderedDict()}
+[0.000476] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.000529] (tracer_base) JobQueued: {'identifier': 'tracer_base', 'dependencies': OrderedDict([('tracer_msgs', '/root/tracer_control_ws/install/tracer_msgs'), ('ugv_sdk', '/root/tracer_control_ws/install/ugv_sdk')])}
+[0.001702] (tracer_msgs) JobStarted: {'identifier': 'tracer_msgs'}
+[0.019554] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.032418] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'cmake'}
+[0.033812] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'build'}
+[0.035236] (tracer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/tracer_control_ws/build/tracer_msgs', '--', '-j12', '-l12'], 'cwd': '/root/tracer_control_ws/build/tracer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ros2-server'), ('ROS_PACKAGE_PATH', '/root/tracer_control_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/tracer_control_ws/install/tracer_base/lib:/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/root/tracer_control_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/tracer_control_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/root/tracer_control_ws/install/tracer_msgs:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/tracer_control_ws/build/tracer_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs')]), 'shell': False}
+[0.042639] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.043813] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.044251] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/tracer_control_ws/build/ugv_sdk', '--', '-j12', '-l12'], 'cwd': '/root/tracer_control_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ros2-server'), ('ROS_PACKAGE_PATH', '/root/tracer_control_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/tracer_control_ws/install/tracer_base/lib:/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/root/tracer_control_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/tracer_control_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/root/tracer_control_ws/install/tracer_msgs:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/tracer_control_ws/build/ugv_sdk'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs')]), 'shell': False}
+[0.099372] (-) TimerEvent: {}
+[0.166619] (tracer_msgs) StdoutLine: {'line': b'[  1%] Built target tracer_msgs__cpp\n'}
+[0.176733] (tracer_msgs) StdoutLine: {'line': b'[ 12%] Built target tracer_msgs__rosidl_generator_c\n'}
+[0.190097] (tracer_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_tracer_msgs\n'}
+[0.199547] (-) TimerEvent: {}
+[0.216108] (ugv_sdk) StdoutLine: {'line': b'[ 42%] Built target ugv_sdk\n'}
+[0.232557] (tracer_msgs) StdoutLine: {'line': b'[ 23%] Built target tracer_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.233462] (tracer_msgs) StdoutLine: {'line': b'[ 35%] Built target tracer_msgs__rosidl_typesupport_cpp\n'}
+[0.244441] (tracer_msgs) StdoutLine: {'line': b'[ 46%] Built target tracer_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.249929] (tracer_msgs) StdoutLine: {'line': b'[ 57%] Built target tracer_msgs__rosidl_typesupport_c\n'}
+[0.297746] (ugv_sdk) StdoutLine: {'line': b'[ 57%] Built target demo_scout_mini_omni_robot\n'}
+[0.298256] (ugv_sdk) StdoutLine: {'line': b'[ 57%] Built target demo_ranger_robot\n'}
+[0.299640] (-) TimerEvent: {}
+[0.301424] (ugv_sdk) StdoutLine: {'line': b'[ 64%] Built target demo_scout_robot\n'}
+[0.302136] (ugv_sdk) StdoutLine: {'line': b'[ 71%] Built target demo_tracer_robot\n'}
+[0.307821] (tracer_msgs) StdoutLine: {'line': b'[ 69%] Built target tracer_msgs__rosidl_typesupport_introspection_c\n'}
+[0.320126] (tracer_msgs) StdoutLine: {'line': b'[ 80%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.363439] (ugv_sdk) StdoutLine: {'line': b'[ 78%] Built target demo_bunker_robot\n'}
+[0.367394] (ugv_sdk) StdoutLine: {'line': b'[ 85%] Built target demo_robot_version\n'}
+[0.372636] (ugv_sdk) StdoutLine: {'line': b'[ 92%] Built target demo_hunter_robot\n'}
+[0.375532] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_protocol_detector\n'}
+[0.376357] (tracer_msgs) StdoutLine: {'line': b'[ 80%] Built target tracer_msgs\n'}
+[0.399827] (-) TimerEvent: {}
+[0.410428] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.413420] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'install'}
+[0.430855] (tracer_msgs) StdoutLine: {'line': b'[ 81%] Built target tracer_msgs__py\n'}
+[0.435331] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/tracer_control_ws/build/ugv_sdk'], 'cwd': '/root/tracer_control_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ros2-server'), ('ROS_PACKAGE_PATH', '/root/tracer_control_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/tracer_control_ws/install/tracer_base/lib:/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/root/tracer_control_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/tracer_control_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/root/tracer_control_ws/install/tracer_msgs:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/tracer_control_ws/build/ugv_sdk'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs')]), 'shell': False}
+[0.458856] (ugv_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.460027] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/libugv_sdk.a\n'}
+[0.460293] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk\n'}
+[0.460462] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details\n'}
+[0.460615] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port\n'}
+[0.460762] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp\n'}
+[0.460906] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp\n'}
+[0.461047] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp\n'}
+[0.461184] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base\n'}
+[0.461318] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp\n'}
+[0.461451] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp\n'}
+[0.464239] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp\n'}
+[0.464576] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp\n'}
+[0.464726] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp\n'}
+[0.464865] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp\n'}
+[0.465001] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp\n'}
+[0.465134] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2\n'}
+[0.465269] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp\n'}
+[0.465404] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1\n'}
+[0.465538] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp\n'}
+[0.468377] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h\n'}
+[0.469298] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp\n'}
+[0.469989] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface\n'}
+[0.470284] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp\n'}
+[0.470545] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp\n'}
+[0.470722] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp\n'}
+[0.471036] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h\n'}
+[0.473392] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp\n'}
+[0.474073] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp\n'}
+[0.474827] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h\n'}
+[0.475771] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp\n'}
+[0.475999] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp\n'}
+[0.476206] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp\n'}
+[0.476692] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot\n'}
+[0.476916] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp\n'}
+[0.478042] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp\n'}
+[0.478268] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp\n'}
+[0.478561] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp\n'}
+[0.479807] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp\n'}
+[0.480031] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp\n'}
+[0.480564] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/utilities\n'}
+[0.480740] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp\n'}
+[0.480932] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake\n'}
+[0.481343] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake\n'}
+[0.481553] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake\n'}
+[0.481901] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake\n'}
+[0.482052] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.498969] (tracer_msgs) StdoutLine: {'line': b'[ 91%] Built target tracer_msgs__rosidl_generator_py\n'}
+[0.500244] (-) TimerEvent: {}
+[0.522556] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 0}
+[0.558429] (tracer_msgs) StdoutLine: {'line': b'[ 98%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.558948] (tracer_msgs) StdoutLine: {'line': b'[ 98%] Built target tracer_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.559160] (tracer_msgs) StdoutLine: {'line': b'[100%] Built target tracer_msgs__rosidl_typesupport_c__pyext\n'}
+[0.600438] (-) TimerEvent: {}
+[0.701440] (-) TimerEvent: {}
+[0.802313] (-) TimerEvent: {}
+[0.823703] (tracer_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.825535] (tracer_msgs) StdoutLine: {'line': b'writing tracer_msgs.egg-info/PKG-INFO\n'}
+[0.826152] (tracer_msgs) StdoutLine: {'line': b'writing dependency_links to tracer_msgs.egg-info/dependency_links.txt\n'}
+[0.826635] (tracer_msgs) StdoutLine: {'line': b'writing top-level names to tracer_msgs.egg-info/top_level.txt\n'}
+[0.831640] (tracer_msgs) StdoutLine: {'line': b"reading manifest file 'tracer_msgs.egg-info/SOURCES.txt'\n"}
+[0.833018] (tracer_msgs) StdoutLine: {'line': b"writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'\n"}
+[0.902525] (-) TimerEvent: {}
+[0.914396] (tracer_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tracer_msgs_egg\n'}
+[0.947776] (tracer_msgs) CommandEnded: {'returncode': 0}
+[0.949925] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'install'}
+[0.950531] (tracer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/tracer_control_ws/build/tracer_msgs'], 'cwd': '/root/tracer_control_ws/build/tracer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ros2-server'), ('ROS_PACKAGE_PATH', '/root/tracer_control_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/tracer_control_ws/install/tracer_base/lib:/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/root/tracer_control_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/tracer_control_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/root/tracer_control_ws/install/tracer_msgs:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/tracer_control_ws/build/tracer_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs')]), 'shell': False}
+[0.972633] (tracer_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.974847] (tracer_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.975334] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/ament_index/resource_index/rosidl_interfaces/tracer_msgs\n'}
+[0.975531] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.h\n'}
+[0.975756] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.h\n'}
+[0.976005] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.h\n'}
+[0.976266] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.h\n'}
+[0.976509] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.h\n'}
+[0.976768] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.h\n'}
+[0.977058] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__functions.h\n'}
+[0.977305] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__struct.h\n'}
+[0.977504] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__type_support.h\n'}
+[0.977765] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.h\n'}
+[0.977998] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.h\n'}
+[0.978233] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.h\n'}
+[0.978422] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__functions.h\n'}
+[0.978670] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__struct.h\n'}
+[0.978877] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__type_support.h\n'}
+[0.979117] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__functions.h\n'}
+[0.979340] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__struct.h\n'}
+[0.979556] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__type_support.h\n'}
+[0.979787] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.980026] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.h\n'}
+[0.980218] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.h\n'}
+[0.980434] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_motor_state.h\n'}
+[0.980637] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.h\n'}
+[0.980860] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_motor_state.h\n'}
+[0.981058] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_status.h\n'}
+[0.981461] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.sh\n'}
+[0.981794] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.dsv\n'}
+[0.982949] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.983172] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.983396] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.983629] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.983868] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.984097] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.984339] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.985109] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.985362] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_c.h\n'}
+[0.985601] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_introspection_c.h\n'}
+[0.985909] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_c.h\n'}
+[0.986137] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_introspection_c.h\n'}
+[0.986358] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_introspection_c.h\n'}
+[0.986576] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.987661] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__builder.hpp\n'}
+[0.987896] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.hpp\n'}
+[0.988112] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__traits.hpp\n'}
+[0.988342] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.hpp\n'}
+[0.988564] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__builder.hpp\n'}
+[0.988782] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.hpp\n'}
+[0.989006] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__traits.hpp\n'}
+[0.989232] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.hpp\n'}
+[0.989453] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__builder.hpp\n'}
+[0.989713] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__struct.hpp\n'}
+[0.989935] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__traits.hpp\n'}
+[0.990158] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__type_support.hpp\n'}
+[0.990378] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__builder.hpp\n'}
+[0.990598] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.hpp\n'}
+[0.990815] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__traits.hpp\n'}
+[0.991033] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.hpp\n'}
+[0.991254] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__builder.hpp\n'}
+[0.991477] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__struct.hpp\n'}
+[0.991691] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__traits.hpp\n'}
+[0.991914] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__type_support.hpp\n'}
+[0.992134] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__builder.hpp\n'}
+[0.992372] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__struct.hpp\n'}
+[0.992582] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__traits.hpp\n'}
+[0.992796] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__type_support.hpp\n'}
+[0.993007] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.993237] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.hpp\n'}
+[0.993446] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.hpp\n'}
+[0.993674] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_motor_state.hpp\n'}
+[0.993880] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.hpp\n'}
+[0.994088] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_motor_state.hpp\n'}
+[0.994298] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/uart_tracer_status.hpp\n'}
+[0.995442] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.995679] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.995912] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.996142] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.996372] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.996667] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.996882] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.997622] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.998358] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.998580] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.998805] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.999033] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.999257] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/uart_tracer_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.999565] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.sh\n'}
+[0.999869] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.dsv\n'}
+[1.000446] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/PKG-INFO\n'}
+[1.000678] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/SOURCES.txt\n'}
+[1.000912] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/dependency_links.txt\n'}
+[1.001124] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.3.3-py3.10.egg-info/top_level.txt\n'}
+[1.002480] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/__init__.py\n'}
+[1.002659] (-) TimerEvent: {}
+[1.002958] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.003130] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.003306] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.003708] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/libtracer_msgs__rosidl_generator_py.so\n'}
+[1.003897] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/__init__.py\n'}
+[1.004064] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd.py\n'}
+[1.004208] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd_s.c\n'}
+[1.004386] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state.py\n'}
+[1.004552] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state_s.c\n'}
+[1.004725] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_motor_state.py\n'}
+[1.004967] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_motor_state_s.c\n'}
+[1.005202] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status.py\n'}
+[1.005396] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status_s.c\n'}
+[1.005654] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_motor_state.py\n'}
+[1.005880] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_motor_state_s.c\n'}
+[1.006086] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_status.py\n'}
+[1.006324] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_uart_tracer_status_s.c\n'}
+[1.006526] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.006765] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.006968] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.007677] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.008256] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.008920] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.009231] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerMotorState.idl\n'}
+[1.009550] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerMotorState.idl\n'}
+[1.009902] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.idl\n'}
+[1.010185] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.idl\n'}
+[1.010477] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.idl\n'}
+[1.010767] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerStatus.idl\n'}
+[1.011061] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerMotorState.msg\n'}
+[1.011679] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerMotorState.msg\n'}
+[1.011929] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.msg\n'}
+[1.012245] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.msg\n'}
+[1.012657] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.msg\n'}
+[1.013056] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerStatus.msg\n'}
+[1.014638] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.msg\n'}
+[1.014990] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.msg\n'}
+[1.015164] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerMotorState.msg\n'}
+[1.016113] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRsStatus.msg\n'}
+[1.016399] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.msg\n'}
+[1.016676] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerMotorState.msg\n'}
+[1.016899] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/msg/UartTracerStatus.msg\n'}
+[1.017266] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/ament_index/resource_index/package_run_dependencies/tracer_msgs\n'}
+[1.017605] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/ament_index/resource_index/parent_prefix_path/tracer_msgs\n'}
+[1.018021] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.sh\n'}
+[1.018288] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.dsv\n'}
+[1.018597] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/path.sh\n'}
+[1.018878] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/environment/path.dsv\n'}
+[1.019155] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/local_setup.bash\n'}
+[1.019433] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/local_setup.sh\n'}
+[1.019712] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/local_setup.zsh\n'}
+[1.019984] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/local_setup.dsv\n'}
+[1.020195] (tracer_msgs) StdoutLine: {'line': b'-- Symlinking: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/package.dsv\n'}
+[1.042090] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/ament_index/resource_index/packages/tracer_msgs\n'}
+[1.042685] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.043105] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.043313] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.043551] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.043846] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.044109] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.044404] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.044684] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig.cmake\n'}
+[1.044896] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig-version.cmake\n'}
+[1.045188] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/package.xml\n'}
+[1.045742] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_c.so\n'}
+[1.046338] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.046879] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.047377] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_c.so\n'}
+[1.047904] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.048450] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.048967] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_cpp.so\n'}
+[1.102878] (-) TimerEvent: {}
+[1.122588] (tracer_msgs) StdoutLine: {'line': b"Listing '/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs'...\n"}
+[1.123070] (tracer_msgs) StdoutLine: {'line': b"Listing '/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg'...\n"}
+[1.134605] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_py.so\n'}
+[1.135542] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport.cmake\n'}
+[1.136056] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.136422] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.136763] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.137209] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.137635] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.137893] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.138086] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.138307] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.138524] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.138670] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.138807] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.138962] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.139103] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.139238] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.139371] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.139502] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.144320] (tracer_msgs) CommandEnded: {'returncode': 0}
+[1.201287] (tracer_msgs) JobEnded: {'identifier': 'tracer_msgs', 'rc': 0}
+[1.204843] (-) TimerEvent: {}
+[1.205192] (tracer_base) JobStarted: {'identifier': 'tracer_base'}
+[1.229656] (tracer_base) JobProgress: {'identifier': 'tracer_base', 'progress': 'cmake'}
+[1.234918] (tracer_base) JobProgress: {'identifier': 'tracer_base', 'progress': 'build'}
+[1.236450] (tracer_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/tracer_control_ws/build/tracer_base', '--', '-j12', '-l12'], 'cwd': '/root/tracer_control_ws/build/tracer_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ros2-server'), ('ROS_PACKAGE_PATH', '/root/tracer_control_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/root/tracer_control_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/tracer_control_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/tracer_control_ws/install/tracer_base:/root/tracer_control_ws/install/tracer_msgs:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/tracer_control_ws/build/tracer_base'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base')]), 'shell': False}
+[1.305060] (-) TimerEvent: {}
+[1.348654] (tracer_base) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracer_messenger\x1b[0m\n'}
+[1.405286] (-) TimerEvent: {}
+[1.414442] (tracer_base) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o\x1b[0m\n'}
+[1.505511] (-) TimerEvent: {}
+[1.606413] (-) TimerEvent: {}
+[1.707155] (-) TimerEvent: {}
+[1.808041] (-) TimerEvent: {}
+[1.908954] (-) TimerEvent: {}
+[2.009884] (-) TimerEvent: {}
+[2.110687] (-) TimerEvent: {}
+[2.211455] (-) TimerEvent: {}
+[2.312213] (-) TimerEvent: {}
+[2.413073] (-) TimerEvent: {}
+[2.513971] (-) TimerEvent: {}
+[2.614676] (-) TimerEvent: {}
+[2.715398] (-) TimerEvent: {}
+[2.816211] (-) TimerEvent: {}
+[2.916927] (-) TimerEvent: {}
+[3.017657] (-) TimerEvent: {}
+[3.118361] (-) TimerEvent: {}
+[3.219081] (-) TimerEvent: {}
+[3.319810] (-) TimerEvent: {}
+[3.420533] (-) TimerEvent: {}
+[3.521255] (-) TimerEvent: {}
+[3.622033] (-) TimerEvent: {}
+[3.722781] (-) TimerEvent: {}
+[3.823544] (-) TimerEvent: {}
+[3.924282] (-) TimerEvent: {}
+[4.025048] (-) TimerEvent: {}
+[4.125853] (-) TimerEvent: {}
+[4.226599] (-) TimerEvent: {}
+[4.327317] (-) TimerEvent: {}
+[4.428073] (-) TimerEvent: {}
+[4.528818] (-) TimerEvent: {}
+[4.630243] (-) TimerEvent: {}
+[4.731398] (-) TimerEvent: {}
+[4.832380] (-) TimerEvent: {}
+[4.933111] (-) TimerEvent: {}
+[5.033954] (-) TimerEvent: {}
+[5.134692] (-) TimerEvent: {}
+[5.235458] (-) TimerEvent: {}
+[5.336196] (-) TimerEvent: {}
+[5.436934] (-) TimerEvent: {}
+[5.537752] (-) TimerEvent: {}
+[5.638547] (-) TimerEvent: {}
+[5.739290] (-) TimerEvent: {}
+[5.840025] (-) TimerEvent: {}
+[5.940775] (-) TimerEvent: {}
+[6.041514] (-) TimerEvent: {}
+[6.142295] (-) TimerEvent: {}
+[6.243131] (-) TimerEvent: {}
+[6.343908] (-) TimerEvent: {}
+[6.444670] (-) TimerEvent: {}
+[6.545398] (-) TimerEvent: {}
+[6.646149] (-) TimerEvent: {}
+[6.746910] (-) TimerEvent: {}
+[6.847657] (-) TimerEvent: {}
+[6.948525] (-) TimerEvent: {}
+[7.049291] (-) TimerEvent: {}
+[7.150077] (-) TimerEvent: {}
+[7.250819] (-) TimerEvent: {}
+[7.351567] (-) TimerEvent: {}
+[7.452302] (-) TimerEvent: {}
+[7.553049] (-) TimerEvent: {}
+[7.653819] (-) TimerEvent: {}
+[7.754536] (-) TimerEvent: {}
+[7.855310] (-) TimerEvent: {}
+[7.956047] (-) TimerEvent: {}
+[8.056912] (-) TimerEvent: {}
+[8.157723] (-) TimerEvent: {}
+[8.258454] (-) TimerEvent: {}
+[8.359192] (-) TimerEvent: {}
+[8.459927] (-) TimerEvent: {}
+[8.560695] (-) TimerEvent: {}
+[8.661431] (-) TimerEvent: {}
+[8.762233] (-) TimerEvent: {}
+[8.862980] (-) TimerEvent: {}
+[8.963711] (-) TimerEvent: {}
+[9.064433] (-) TimerEvent: {}
+[9.165159] (-) TimerEvent: {}
+[9.265891] (-) TimerEvent: {}
+[9.366617] (-) TimerEvent: {}
+[9.467358] (-) TimerEvent: {}
+[9.568096] (-) TimerEvent: {}
+[9.668834] (-) TimerEvent: {}
+[9.769591] (-) TimerEvent: {}
+[9.870320] (-) TimerEvent: {}
+[9.938170] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerROSMessenger::TracerROSMessenger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.938969] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:12:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.939208] (tracer_base) StderrLine: {'line': b'   12 | TracerROSMessenger::TracerROSMessenger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K {}\n'}
+[9.939378] (tracer_base) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.939526] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.939670] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.939808] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.939939] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:8\x1b[m\x1b[K,\n'}
+[9.940069] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1\x1b[m\x1b[K:\n'}
+[9.940199] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.940332] (tracer_base) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.940459] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.940583] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[9.940714] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.940872] (tracer_base) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.940998] (tracer_base) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.941123] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[9.941517] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.941714] (tracer_base) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.941850] (tracer_base) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.941979] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[9.942109] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerROSMessenger::TracerROSMessenger(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.942238] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:15:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.942366] (tracer_base) StderrLine: {'line': b'   15 |     tracer_(nullptr), nh_(nh\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[9.942497] (tracer_base) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.942624] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.942752] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.942880] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.943003] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:8\x1b[m\x1b[K,\n'}
+[9.943152] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1\x1b[m\x1b[K:\n'}
+[9.943283] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.943411] (tracer_base) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.943533] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.943657] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[9.943786] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.943913] (tracer_base) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.944070] (tracer_base) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.944212] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[9.944568] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.944774] (tracer_base) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.944910] (tracer_base) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.945044] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[9.945176] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerROSMessenger::TracerROSMessenger(westonrobot::TracerRobot*, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.945309] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:21:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.945437] (tracer_base) StderrLine: {'line': b'   21 |     tracer_(tracer), nh_(nh\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[9.945561] (tracer_base) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.945746] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.945877] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.946004] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.946129] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:8\x1b[m\x1b[K,\n'}
+[9.946254] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1\x1b[m\x1b[K:\n'}
+[9.946378] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.946508] (tracer_base) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.946633] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.946756] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[9.946882] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.947010] (tracer_base) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.947133] (tracer_base) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.947257] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[9.947410] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.947540] (tracer_base) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[9.947668] (tracer_base) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.947791] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[9.970500] (-) TimerEvent: {}
+[10.071212] (-) TimerEvent: {}
+[10.171938] (-) TimerEvent: {}
+[10.272659] (-) TimerEvent: {}
+[10.373381] (-) TimerEvent: {}
+[10.474142] (-) TimerEvent: {}
+[10.574861] (-) TimerEvent: {}
+[10.675577] (-) TimerEvent: {}
+[10.776327] (-) TimerEvent: {}
+[10.877034] (-) TimerEvent: {}
+[10.978011] (-) TimerEvent: {}
+[11.078740] (-) TimerEvent: {}
+[11.179485] (-) TimerEvent: {}
+[11.280213] (-) TimerEvent: {}
+[11.380935] (-) TimerEvent: {}
+[11.481709] (-) TimerEvent: {}
+[11.582436] (-) TimerEvent: {}
+[11.683149] (-) TimerEvent: {}
+[11.783882] (-) TimerEvent: {}
+[11.884607] (-) TimerEvent: {}
+[11.985361] (-) TimerEvent: {}
+[12.086161] (-) TimerEvent: {}
+[12.186888] (-) TimerEvent: {}
+[12.287620] (-) TimerEvent: {}
+[12.388352] (-) TimerEvent: {}
+[12.489073] (-) TimerEvent: {}
+[12.589844] (-) TimerEvent: {}
+[12.690584] (-) TimerEvent: {}
+[12.791322] (-) TimerEvent: {}
+[12.892054] (-) TimerEvent: {}
+[12.992771] (-) TimerEvent: {}
+[13.093494] (-) TimerEvent: {}
+[13.194255] (-) TimerEvent: {}
+[13.294968] (-) TimerEvent: {}
+[13.395711] (-) TimerEvent: {}
+[13.496439] (-) TimerEvent: {}
+[13.597189] (-) TimerEvent: {}
+[13.698022] (-) TimerEvent: {}
+[13.798763] (-) TimerEvent: {}
+[13.899739] (-) TimerEvent: {}
+[14.000464] (-) TimerEvent: {}
+[14.101198] (-) TimerEvent: {}
+[14.202080] (-) TimerEvent: {}
+[14.302838] (-) TimerEvent: {}
+[14.404084] (-) TimerEvent: {}
+[14.504913] (-) TimerEvent: {}
+[14.605687] (-) TimerEvent: {}
+[14.706453] (-) TimerEvent: {}
+[14.807190] (-) TimerEvent: {}
+[14.907911] (-) TimerEvent: {}
+[15.008634] (-) TimerEvent: {}
+[15.109356] (-) TimerEvent: {}
+[15.210101] (-) TimerEvent: {}
+[15.310841] (-) TimerEvent: {}
+[15.411570] (-) TimerEvent: {}
+[15.512284] (-) TimerEvent: {}
+[15.613001] (-) TimerEvent: {}
+[15.713787] (-) TimerEvent: {}
+[15.814504] (-) TimerEvent: {}
+[15.915226] (-) TimerEvent: {}
+[16.015962] (-) TimerEvent: {}
+[16.116846] (-) TimerEvent: {}
+[16.217642] (-) TimerEvent: {}
+[16.318373] (-) TimerEvent: {}
+[16.419106] (-) TimerEvent: {}
+[16.519829] (-) TimerEvent: {}
+[16.620583] (-) TimerEvent: {}
+[16.721352] (-) TimerEvent: {}
+[16.822241] (-) TimerEvent: {}
+[16.923105] (-) TimerEvent: {}
+[17.023844] (-) TimerEvent: {}
+[17.124717] (-) TimerEvent: {}
+[17.225607] (-) TimerEvent: {}
+[17.326446] (-) TimerEvent: {}
+[17.427184] (-) TimerEvent: {}
+[17.528043] (-) TimerEvent: {}
+[17.628880] (-) TimerEvent: {}
+[17.729708] (-) TimerEvent: {}
+[17.830453] (-) TimerEvent: {}
+[17.931327] (-) TimerEvent: {}
+[18.032178] (-) TimerEvent: {}
+[18.133040] (-) TimerEvent: {}
+[18.233982] (-) TimerEvent: {}
+[18.334864] (-) TimerEvent: {}
+[18.435709] (-) TimerEvent: {}
+[18.536598] (-) TimerEvent: {}
+[18.637466] (-) TimerEvent: {}
+[18.738346] (-) TimerEvent: {}
+[18.839101] (-) TimerEvent: {}
+[18.939870] (-) TimerEvent: {}
+[19.040729] (-) TimerEvent: {}
+[19.141479] (-) TimerEvent: {}
+[19.186295] (tracer_base) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1\n'}
+[19.186919] (tracer_base) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2\n'}
+[19.187263] (tracer_base) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.192995] (tracer_base) CommandEnded: {'returncode': 2}
+[19.206445] (tracer_base) JobEnded: {'identifier': 'tracer_base', 'rc': 2}
+[19.218199] (-) EventReactorShutdown: {}

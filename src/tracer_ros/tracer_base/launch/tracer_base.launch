@@ -1,0 +1,18 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='tracer_base',
+            executable='tracer_base_node',
+            name='tracer_base',
+            output='screen',
+            parameters=[{
+                'port_name': 'can2',  # 修改为您的CAN端口
+                'odom_frame': 'body',
+                'base_frame': 'base_link',
+                'simulated_robot': False
+            }]
+        )
+    ])

@@ -1,0 +1,6 @@
+Invoking command in '/root/tracer_control_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_msgs
+Invoked command in '/root/tracer_control_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_msgs
+Invoking command in '/root/tracer_control_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_msgs -- -j12 -l12
+Invoked command in '/root/tracer_control_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_msgs -- -j12 -l12
+Invoking command in '/root/tracer_control_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_msgs
+Invoked command in '/root/tracer_control_ws/build/tracer_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_msgs

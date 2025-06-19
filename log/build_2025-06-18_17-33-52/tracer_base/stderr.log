@@ -1,0 +1,12 @@
+[33mCMake Warning at CMakeLists.txt:43 (message):
+  libsocketcan not found - CAN support may be limited
+
+[0m
+[33mCMake Warning at CMakeLists.txt:51 (message):
+  libpcan not found - PCAN support disabled
+
+[0m
+[33mCMake Warning at CMakeLists.txt:161 (message):
+  config directory not found, skipping
+
+[0m

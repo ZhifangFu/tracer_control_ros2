@@ -1,0 +1,39 @@
+[0.035s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[0.223s] [ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[8.708s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.708s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kis极客彩票app下载_connected_[m[K’ was not declared in this scope
+[8.709s]    61 |                 if (![01;31m[Kis极客彩票app下载_connected_[m[K || !tracer_) {
+[8.709s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.749s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.750s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.752s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.752s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.752s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.753s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kn极客彩票app下载h_[m[K’ was not declared in this scope
+[8.753s]    68 |                 RCLCPP_ERROR([01;31m[Kn极客彩票app下载h_[m[K->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.753s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.753s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.753s]    68 |                 [01;31m[KRCLCPP_ERROR[m[K(n极客彩票app下载h_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.753s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.753s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.754s]    68 |                 [01;31m[KRCLCPP_ERROR[m[K(n极客彩票app下载h_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.755s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.755s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.756s]    68 |                 [01;31m[KRCLCPP_ERROR[m[K(n极客彩票app下载h_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.756s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.820s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::PublishOdometryToROS(double, double, double)[m[K’:
+[8.820s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:363:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[K极客彩票app下载pose[m[K’
+[8.820s]   363 |     odom_msg->[01;31m[K极客彩票app下载pose[m[K.pose.position.z = 0.0;
+[8.821s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[18.092s] gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1
+[18.092s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2
+[18.093s] gmake: *** [Makefile:146: all] Error 2
+[18.099s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12

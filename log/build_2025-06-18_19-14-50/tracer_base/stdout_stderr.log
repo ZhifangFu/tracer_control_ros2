@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libtracer_messenger.a[0m
+[ 50%] Built target tracer_messenger
+[ 75%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:7[m[K:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:26:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kstd::__shared_ptr<westonrobot::TracerBaseV2, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kwestonrobot::TracerBaseV2*[m[K’} [[01;35m[K-Wformat=[m[K]
+   26 |     RCLCPP_INFO(node->get_logger(), [01;35m[K"Robot object created at %p"[m[K, [32m[Krobot.get()[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+      |                                                                            [32m[K|[m[K
+      |                                                                            [32m[Kstd::__shared_ptr<westonrobot::TracerBaseV2, __gnu_cxx::_S_atomic>::element_type* {aka westonrobot::TracerBaseV2*}[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:26:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   26 |     RCLCPP_INFO(node->get_logger(), "Robot object created at [01;36m[K%p[m[K", robot.get());
+      |                                                              [01;36m[K~^[m[K
+      |                                                               [01;36m[K|[m[K
+      |                                                               [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:7[m[K:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:30:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kstd::__shared_ptr<westonrobot::TracerROSMessenger, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kwestonrobot::TracerROSMessenger*[m[K’} [[01;35m[K-Wformat=[m[K]
+   30 |     RCLCPP_INFO(node->get_logger(), [01;35m[K"Messenger object created at %p"[m[K, [32m[Kmessenger.get()[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                                                                    [32m[K|[m[K
+      |                                                                                    [32m[Kstd::__shared_ptr<westonrobot::TracerROSMessenger, __gnu_cxx::_S_atomic>::element_type* {aka westonrobot::TracerROSMessenger*}[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:30:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   30 |     RCLCPP_INFO(node->get_logger(), "Messenger object created at [01;36m[K%p[m[K", messenger.get());
+      |                                                                  [01;36m[K~^[m[K
+      |                                                                   [01;36m[K|[m[K
+      |                                                                   [01;36m[Kvoid*[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:182:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class westonrobot::TracerBaseV2[m[K’ {aka ‘[01m[Kclass westonrobot::TracerBaseV2[m[K’} has no member named ‘[01m[KDisconnect[m[K’; did you mean ‘[01m[KConnect[m[K’?
+  182 |             robot->[01;31m[KDisconnect[m[K();
+      |                    [01;31m[K^~~~~~~~~~[m[K
+      |                    [32m[KConnect[m[K
+gmake[2]: *** [CMakeFiles/tracer_base_node.dir/build.make:76: CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/tracer_base_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

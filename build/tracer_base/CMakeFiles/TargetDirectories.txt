@@ -1,0 +1,11 @@
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/uninstall.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/tracer_base_uninstall.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/tracer_messenger.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/tracer_base_node.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/test.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/edit_cache.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/rebuild_cache.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/list_install_components.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/install.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/install/local.dir
+/root/tracer_control_ws/build/tracer_base/CMakeFiles/install/strip.dir

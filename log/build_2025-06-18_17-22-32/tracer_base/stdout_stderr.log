@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libtracer_messenger.a[0m
+[ 50%] Built target tracer_messenger
+[ 75%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tracer_base_node[0m
+[100%] Built target tracer_base_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/libtracer_messenger.a
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/include/tracer_base/tracer_messenger.hpp
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/launch/tracer_base.launch
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/urdf/agilex_tracer.urdf
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.bash
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.xml

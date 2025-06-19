@@ -1,0 +1,1 @@
+/root/tracer_control_ws/build/tracer_msgs/rosidl_typesupport_introspection_c/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_c.h

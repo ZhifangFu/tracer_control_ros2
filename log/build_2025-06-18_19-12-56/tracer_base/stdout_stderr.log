@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kis极客彩票app下载_connected_[m[K’ was not declared in this scope
+   61 |                 if (![01;31m[Kis极客彩票app下载_connected_[m[K || !tracer_) {
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kn极客彩票app下载h_[m[K’ was not declared in this scope
+   68 |                 RCLCPP_ERROR([01;31m[Kn极客彩票app下载h_[m[K->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |                 [01;31m[KRCLCPP_ERROR[m[K(n极客彩票app下载h_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |                 [01;31m[KRCLCPP_ERROR[m[K(n极客彩票app下载h_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |                 [01;31m[KRCLCPP_ERROR[m[K(n极客彩票app下载h_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::PublishOdometryToROS(double, double, double)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:363:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[K极客彩票app下载pose[m[K’
+  363 |     odom_msg->[01;31m[K极客彩票app下载pose[m[K.pose.position.z = 0.0;
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

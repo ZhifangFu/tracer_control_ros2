@@ -1,0 +1,135 @@
+[0.026s] Invoking command in '/root/tracer_control_ws/build/tracer_base': AMENT_PREFIX_PATH=/root/tracer_control_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PKG_CONFIG_PATH=/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/tracer_control_ws/install/ugv_sdk/share /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_base
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.293s] -- Detecting C compiler ABI info
+[0.464s] -- Detecting C compiler ABI info - done
+[0.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.483s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.496s] -- Detecting CXX compiler ABI info
+[0.687s] -- Detecting CXX compiler ABI info - done
+[0.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.707s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.717s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.089s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.324s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.421s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.431s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.450s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.608s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.613s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.855s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.935s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.053s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.076s] -- Looking for pthread.h
+[2.254s] -- Looking for pthread.h - found
+[2.254s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.437s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.440s] -- Found Threads: TRUE  
+[2.571s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.637s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.667s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.859s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.899s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.902s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.902s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.909s] -- Found tracer_msgs: 0.3.3 (/root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake)
+[2.939s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.981s] [33mCMake Warning at CMakeLists.txt:43 (message):
+[2.982s]   libsocketcan not found - CAN support may be limited
+[2.982s] 
+[2.983s] [0m
+[2.983s] [33mCMake Warning at CMakeLists.txt:51 (message):
+[2.983s]   libpcan not found - PCAN support disabled
+[2.983s] 
+[2.983s] [0m
+[5.297s] [33mCMake Warning at CMakeLists.txt:161 (message):
+[5.297s]   config directory not found, skipping
+[5.298s] 
+[5.298s] [0m
+[5.301s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.509s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.511s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.517s] -- Configured cppcheck include dirs: /root/tracer_control_ws/src/tracer_ros/tracer_base/include
+[5.517s] -- Configured cppcheck exclude dirs and/or files: 
+[5.520s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.520s] -- Configured cpplint exclude dirs and/or files: 
+[5.522s] -- Added test 'lint_cmake' to check CMake code style
+[5.524s] -- Added test 'uncrustify' to check C / C++ code style
+[5.525s] -- Configured uncrustify additional arguments: 
+[5.525s] -- Added test 'xmllint' to check XML markup files
+[5.534s] -- Configuring done
+[6.787s] -- Generating done
+[6.853s] -- Build files have been written to: /root/tracer_control_ws/build/tracer_base
+[6.893s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/root/tracer_control_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PKG_CONFIG_PATH=/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/tracer_control_ws/install/ugv_sdk/share /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_base
+[6.898s] Invoking command in '/root/tracer_control_ws/build/tracer_base': AMENT_PREFIX_PATH=/root/tracer_control_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PKG_CONFIG_PATH=/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/tracer_control_ws/install/ugv_sdk/share /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[7.026s] [ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[15.263s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[15.264s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[15.264s]    62 | ger::LightCmdCallback([01;35m[Kconst tracer_msgs::msg::TracerLightCmd::SharedPtr msg[m[K)
+[15.264s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[15.264s] 
+[15.299s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::PublishOdometryToROS(double, double, double)[m[K’:
+[15.300s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:109:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[15.300s]   109 | void TracerROSMessenger::PublishOdometryToROS([01;35m[Kdouble linear[m[K, double angular, double dt)
+[15.300s]       |                                               [01;35m[K~~~~~~~^~~~~~[m[K
+[15.300s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:109:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangular[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[15.301s]   109 | d TracerROSMessenger::PublishOdometryToROS(double linear, [01;35m[Kdouble angular[m[K, double dt)
+[15.301s]       |                                                           [01;35m[K~~~~~~~^~~~~~~[m[K
+[15.301s] 
+[15.301s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:109:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[15.301s]   109 | ROSMessenger::PublishOdometryToROS(double linear, double angular, [01;35m[Kdouble dt[m[K)
+[15.301s]       |                                                                   [01;35m[K~~~~~~~^~[m[K
+[15.301s] 
+[24.412s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[24.412s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:69:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcmd.LightCommandMessage::front_light.AgxLightOperation::mode[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+[24.412s]    69 |         [01;35m[Ktracer_->SetLightCommand(cmd.front_light.mode, cmd.front_light.custom_value)[m[K;
+[24.412s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.412s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:66:29:[m[K [01;36m[Knote: [m[K‘[01m[Kcmd[m[K’ declared here
+[24.412s]    66 |         LightCommandMessage [01;36m[Kcmd[m[K;
+[24.413s]       |                             [01;36m[K^~~[m[K
+[24.413s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:69:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcmd.LightCommandMessage::front_light.AgxLightOperation::custom_value[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+[24.413s]    69 |         [01;35m[Ktracer_->SetLightCommand(cmd.front_light.mode, cmd.front_light.custom_value)[m[K;
+[24.413s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.413s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:66:29:[m[K [01;36m[Knote: [m[K‘[01m[Kcmd[m[K’ declared here
+[24.413s]    66 |         LightCommandMessage [01;36m[Kcmd[m[K;
+[24.414s]       |                             [01;36m[K^~~[m[K
+[37.685s] [ 50%] [32m[1mLinking CXX static library libtracer_messenger.a[0m
+[38.214s] [ 50%] Built target tracer_messenger
+[38.348s] [ 75%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+[48.882s] [100%] [32m[1mLinking CXX executable tracer_base_node[0m
+[66.830s] [100%] Built target tracer_base_node
+[66.862s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/root/tracer_control_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PKG_CONFIG_PATH=/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/tracer_control_ws/install/ugv_sdk/share /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[66.867s] Invoking command in '/root/tracer_control_ws/build/tracer_base': AMENT_PREFIX_PATH=/root/tracer_control_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PKG_CONFIG_PATH=/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/tracer_control_ws/install/ugv_sdk/share /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_base
+[66.885s] -- Install configuration: ""
+[66.886s] -- Execute custom install script
+[66.887s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+[66.910s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/libtracer_messenger.a
+[66.933s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/include/tracer_base/tracer_messenger.hpp
+[66.957s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/launch/tracer_base.launch
+[66.980s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/urdf/agilex_tracer.urdf
+[67.003s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.sh
+[67.026s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.dsv
+[67.051s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+[67.073s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+[67.105s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+[67.125s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+[67.149s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.sh
+[67.171s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+[67.195s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.bash
+[67.217s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.sh
+[67.239s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+[67.261s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+[67.281s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.dsv
+[67.302s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+[67.327s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[67.349s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_libraries-extras.cmake
+[67.371s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[67.395s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+[67.421s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+[67.441s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.xml
+[67.468s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/root/tracer_control_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PKG_CONFIG_PATH=/root/tracer_control_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/root/tracer_control_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/root/tracer_control_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/tracer_control_ws/install/ugv_sdk/share /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_base

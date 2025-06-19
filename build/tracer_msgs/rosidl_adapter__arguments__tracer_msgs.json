@@ -1,0 +1,11 @@
+{
+  "package_name": "tracer_msgs",
+  "non_idl_tuples": [
+    "/root/tracer_control_ws/src/tracer_ros/tracer_msgs:msg/TracerMotorState.msg",
+    "/root/tracer_control_ws/src/tracer_ros/tracer_msgs:msg/UartTracerMotorState.msg",
+    "/root/tracer_control_ws/src/tracer_ros/tracer_msgs:msg/TracerLightState.msg",
+    "/root/tracer_control_ws/src/tracer_ros/tracer_msgs:msg/TracerLightCmd.msg",
+    "/root/tracer_control_ws/src/tracer_ros/tracer_msgs:msg/TracerStatus.msg",
+    "/root/tracer_control_ws/src/tracer_ros/tracer_msgs:msg/UartTracerStatus.msg"
+  ]
+}

@@ -1,0 +1,42 @@
+[33mCMake Warning at CMakeLists.txt:43 (message):
+  libsocketcan not found - CAN support may be limited
+
+[0m
+[33mCMake Warning at CMakeLists.txt:51 (message):
+  libpcan not found - PCAN support disabled
+
+[0m
+[33mCMake Warning at CMakeLists.txt:161 (message):
+  config directory not found, skipping
+
+[0m
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   62 | ger::LightCmdCallback([01;35m[Kconst tracer_msgs::msg::TracerLightCmd::SharedPtr msg[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::PublishOdometryToROS(double, double, double)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:109:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  109 | void TracerROSMessenger::PublishOdometryToROS([01;35m[Kdouble linear[m[K, double angular, double dt)
+      |                                               [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:109:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangular[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  109 | d TracerROSMessenger::PublishOdometryToROS(double linear, [01;35m[Kdouble angular[m[K, double dt)
+      |                                                           [01;35m[K~~~~~~~^~~~~~~[m[K
+
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:109:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  109 | ROSMessenger::PublishOdometryToROS(double linear, double angular, [01;35m[Kdouble dt[m[K)
+      |                                                                   [01;35m[K~~~~~~~^~[m[K
+
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:69:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcmd.LightCommandMessage::front_light.AgxLightOperation::mode[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+   69 |         [01;35m[Ktracer_->SetLightCommand(cmd.front_light.mode, cmd.front_light.custom_value)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:66:29:[m[K [01;36m[Knote: [m[K‘[01m[Kcmd[m[K’ declared here
+   66 |         LightCommandMessage [01;36m[Kcmd[m[K;
+      |                             [01;36m[K^~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:69:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcmd.LightCommandMessage::front_light.AgxLightOperation::custom_value[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+   69 |         [01;35m[Ktracer_->SetLightCommand(cmd.front_light.mode, cmd.front_light.custom_value)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:66:29:[m[K [01;36m[Knote: [m[K‘[01m[Kcmd[m[K’ declared here
+   66 |         LightCommandMessage [01;36m[Kcmd[m[K;
+      |                             [01;36m[K^~~[m[K

@@ -1,0 +1,4 @@
+Invoking command in '/root/tracer_control_ws/build/ugv_sdk': /usr/bin/cmake --build /root/tracer_control_ws/build/ugv_sdk -- -j12 -l12
+Invoked command in '/root/tracer_control_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /root/tracer_control_ws/build/ugv_sdk -- -j12 -l12
+Invoking command in '/root/tracer_control_ws/build/ugv_sdk': /usr/bin/cmake --install /root/tracer_control_ws/build/ugv_sdk
+Invoked command in '/root/tracer_control_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /root/tracer_control_ws/build/ugv_sdk

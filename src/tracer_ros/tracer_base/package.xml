@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tracer_base</name>
+  <version>0.0.0</version>
+  <description>AgileX Tracer robot driver for ROS2</description>
+
+  <author email="ruixiang.du@westonrobot.com">Ruixiang Du</author>
+  <maintainer email="info@westonrobot.com">WestonRobot</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">https://www.westonrobot.com</url>
+  <url type="bugtracker">https://github.com/westonrobot/tracer_ros2/issues</url>
+  <url type="repository">https://github.com/westonrobot/tracer_ros2</url>
+
+  <!-- Build and run dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tracer_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>ugv_sdk</depend>
+  
+  <!-- Optional dependencies for testing -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

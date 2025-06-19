@@ -1,0 +1,38 @@
+[0.035s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[0.218s] [ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[30.934s] [ 50%] [32m[1mLinking CXX static library libtracer_messenger.a[0m
+[31.475s] [ 50%] Built target tracer_messenger
+[31.594s] [ 75%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+[41.630s] [100%] [32m[1mLinking CXX executable tracer_base_node[0m
+[59.368s] [100%] Built target tracer_base_node
+[59.397s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[59.403s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_base
+[59.419s] -- Install configuration: ""
+[59.420s] -- Execute custom install script
+[59.421s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+[59.449s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/libtracer_messenger.a
+[59.469s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/include/tracer_base/tracer_messenger.hpp
+[59.490s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/launch/tracer_base.launch
+[59.511s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/urdf/agilex_tracer.urdf
+[59.535s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.sh
+[59.557s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.dsv
+[59.579s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+[59.600s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+[59.620s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+[59.643s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+[59.668s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.sh
+[59.688s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+[59.705s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.bash
+[59.726s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.sh
+[59.747s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+[59.768s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+[59.789s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.dsv
+[59.810s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+[59.831s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.854s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_libraries-extras.cmake
+[59.875s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.895s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+[59.915s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+[59.937s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.xml
+[59.967s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_base

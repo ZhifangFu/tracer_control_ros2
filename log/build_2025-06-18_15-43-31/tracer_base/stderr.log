@@ -1,0 +1,12 @@
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:48:40:[m[K [01;31m[Kerror: [m[K‘[01m[KLightMode[m[K’ does not name a type; did you mean ‘[01m[KAgxLightMode[m[K’?
+   48 |     cmd.front_light.mode = static_cast<[01;31m[KLightMode[m[K>(msg->front_mode);
+      |                                        [01;31m[K^~~~~~~~~[m[K
+      |                                        [32m[KAgxLightMode[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:49:39:[m[K [01;31m[Kerror: [m[K‘[01m[KLightMode[m[K’ does not name a type; did you mean ‘[01m[KAgxLightMode[m[K’?
+   49 |     cmd.rear_light.mode = static_cast<[01;31m[KLightMode[m[K>(msg->rear_mode);
+      |                                       [01;31m[K^~~~~~~~~[m[K
+      |                                       [32m[KAgxLightMode[m[K
+gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

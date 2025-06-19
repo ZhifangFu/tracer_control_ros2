@@ -1,0 +1,82 @@
+[0.034s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[0.207s] [ 50%] Built target tracer_messenger
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target tracer_base_node[0m
+[0.363s] [ 75%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+[8.670s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.672s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:7[m[K:
+[8.672s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.672s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:26:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kstd::__shared_ptr<westonrobot::TracerBaseV2, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kwestonrobot::TracerBaseV2*[m[K’} [[01;35m[K-Wformat=[m[K]
+[8.672s]    26 |     RCLCPP_INFO(node->get_logger(), [01;35m[K"Robot object created at %p"[m[K, [32m[Krobot.get()[m[K);
+[8.672s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[8.672s]       |                                                                            [32m[K|[m[K
+[8.672s]       |                                                                            [32m[Kstd::__shared_ptr<westonrobot::TracerBaseV2, __gnu_cxx::_S_atomic>::element_type* {aka westonrobot::TracerBaseV2*}[m[K
+[8.672s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:26:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.673s]    26 |     RCLCPP_INFO(node->get_logger(), "Robot object created at [01;36m[K%p[m[K", robot.get());
+[8.673s]       |                                                              [01;36m[K~^[m[K
+[8.673s]       |                                                               [01;36m[K|[m[K
+[8.673s]       |                                                               [01;36m[Kvoid*[m[K
+[8.676s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.678s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:7[m[K:
+[8.678s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:30:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kstd::__shared_ptr<westonrobot::TracerROSMessenger, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kwestonrobot::TracerROSMessenger*[m[K’} [[01;35m[K-Wformat=[m[K]
+[8.678s]    30 |     RCLCPP_INFO(node->get_logger(), [01;35m[K"Messenger object created at %p"[m[K, [32m[Kmessenger.get()[m[K);
+[8.678s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+[8.678s]       |                                                                                    [32m[K|[m[K
+[8.678s]       |                                                                                    [32m[Kstd::__shared_ptr<westonrobot::TracerROSMessenger, __gnu_cxx::_S_atomic>::element_type* {aka westonrobot::TracerROSMessenger*}[m[K
+[8.678s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:30:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.679s]    30 |     RCLCPP_INFO(node->get_logger(), "Messenger object created at [01;36m[K%p[m[K", messenger.get());
+[8.679s]       |                                                                  [01;36m[K~^[m[K
+[8.680s]       |                                                                   [01;36m[K|[m[K
+[8.680s]       |                                                                   [01;36m[Kvoid*[m[K
+[11.186s] [100%] [32m[1mLinking CXX executable tracer_base_node[0m
+[28.751s] [100%] Built target tracer_base_node
+[28.777s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[28.783s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_base
+[28.800s] -- Install configuration: ""
+[28.801s] -- Execute custom install script
+[28.802s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+[28.824s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/libtracer_messenger.a
+[28.848s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/include/tracer_base/tracer_messenger.hpp
+[28.870s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/launch/tracer_base.launch
+[28.903s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/urdf/agilex_tracer.urdf
+[28.923s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.sh
+[28.945s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.dsv
+[28.965s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+[28.987s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+[29.011s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+[29.032s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+[29.055s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.sh
+[29.076s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+[29.097s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.bash
+[29.118s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.sh
+[29.140s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+[29.162s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+[29.183s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.dsv
+[29.208s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+[29.228s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.248s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_libraries-extras.cmake
+[29.268s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.287s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+[29.309s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+[29.332s] -- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.xml
+[29.362s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /root/tracer_control_ws/build/tracer_base

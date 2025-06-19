@@ -1,0 +1,836 @@
+[0.039s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[0.208s] [ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[8.225s] In file included from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.225s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:50:19:[m[K [01;31m[Kerror: [m[K‘[01m[KShared极客彩票app下载Ptr[m[K’ in ‘[01m[Kclass rclcpp::Node[m[K’ does not name a type
+[8.225s]    50 |     rclcpp::Node::[01;31m[KShared极客彩票app下载Ptr[m[K nh_;
+[8.225s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.471s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:[m[K In member function ‘[01m[Kbool westonrobot::TracerROSMessenger::IsValid() const[m[K’:
+[8.471s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:37:38:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.472s]    37 |         return tracer_ != nullptr && [01;31m[Knh_[m[K != nullptr;
+[8.472s]       |                                      [01;31m[K^~~[m[K
+[8.472s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In constructor ‘[01m[Kwestonrobot::TracerROSMessenger::TracerROSMessenger(std::shared_ptr<westonrobot::TracerBaseV2>, rclcpp::Node::SharedPtr)[m[K’:
+[8.472s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:13:24:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kwestonrobot::TracerROSMessenger[m[K’ does not have any field named ‘[01m[Knh_[m[K’
+[8.472s]    13 |     : tracer_(tracer), [01;31m[Knh_[m[K(nh)
+[8.472s]       |                        [01;31m[K^~~[m[K
+[8.494s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:16:71:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope; did you mean ‘[01m[Knh[m[K’?
+[8.494s]    16 |     tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>([01;31m[Knh_[m[K);
+[8.494s]       |                                                                       [01;31m[K^~~[m[K
+[8.494s]       |                                                                       [32m[Knh[m[K
+[8.495s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.496s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.496s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.497s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:22:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.497s]    22 |     [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "TracerROSMessenger initialized");
+[8.497s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[8.497s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:22:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.497s]    22 |     [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "TracerROSMessenger initialized");
+[8.497s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[8.498s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:22:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.498s]    22 |     [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "TracerROSMessenger initialized");
+[8.500s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[8.514s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::SetupSubscription()[m[K’:
+[8.514s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:29:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.515s]    29 |         RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Cannot setup subscriptions - messenger not valid");
+[8.515s]       |                      [01;31m[K^~~[m[K
+[8.515s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.515s]    29 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Cannot setup subscriptions - messenger not valid");
+[8.515s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.515s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.515s]    29 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Cannot setup subscriptions - messenger not valid");
+[8.516s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.516s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.516s]    29 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Cannot setup subscriptions - messenger not valid");
+[8.516s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.530s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.530s]    34 |     odom_publisher_ = [01;31m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.530s]       |                       [01;31m[K^~~[m[K
+[8.530s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[8.530s]    34 |     odom_publisher_ = nh_->create_publisher<nav_msgs::msg::Odometry[01;31m[K>[m[K(odom_frame_, 50);
+[8.530s]       |                                                                    [01;31m[K^[m[K
+[8.531s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[8.531s]    34 |     odom_publisher_ = nh_->create_publisher<nav_msgs::msg::Odometry>([01;35m[Kodom_frame_[m[K, 50);
+[8.531s]       |                                                                      [01;35m[K^~~~~~~~~~~[m[K
+[8.531s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:35:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[8.531s]    35 |     status_publisher_ = nh_->create_publisher<tracer_msgs::msg::TracerStatus[01;31m[K>[m[K("/tracer_status", 10);
+[8.531s]       |                                                                             [01;31m[K^[m[K
+[8.531s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:35:79:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[8.532s]    35 |     status_publisher_ = nh_->create_publisher<tracer_msgs::msg::TracerStatus>([01;35m[K"/tracer_status"[m[K, 10);
+[8.532s]       |                                                                               [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[8.532s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:38:80:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[8.532s]    38 |     motion_cmd_subscriber_ = nh_->create_subscription<geometry_msgs::msg::Twist[01;31m[K>[m[K(
+[8.532s]       |                                                                                [01;31m[K^[m[K
+[8.532s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:39:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[8.532s]    39 |         [01;35m[K"/cmd_vel"[m[K, 5,
+[8.532s]       |         [01;35m[K^~~~~~~~~~[m[K
+[8.537s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.539s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.539s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.539s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.540s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:43:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.540s]    43 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.540s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.540s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:43:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.540s]    43 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.540s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.540s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:43:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.541s]    43 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.541s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.541s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:43:62:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.541s]    43 |                     RCLCPP_WARN_THROTTLE(nh_->get_logger(), *[01;31m[Knh_[m[K->get_clock(), 2000,
+[8.541s]       |                                                              [01;31m[K^~~[m[K
+[8.541s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:40:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.541s]    40 |         [this[01;36m[K][m[K(const geometry_msgs::msg::Twist::SharedPtr msg) {
+[8.542s]       |              [01;36m[K^[m[K
+[8.542s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.542s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.542s]       |                       [01;36m[K^~~[m[K
+[8.554s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.556s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.556s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.556s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.556s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:43:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[8.557s]    43 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.557s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.557s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.559s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.559s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.559s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.560s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.560s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:43:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.560s]    43 |                     RCLCPP_WARN_THROTTLE([01;31m[Knh_[m[K->get_logger(), *nh_->get_clock(), 2000,
+[8.560s]       |                                          [01;31m[K^~~[m[K
+[8.560s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:40:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.560s]    40 |         [this[01;36m[K][m[K(const geometry_msgs::msg::Twist::SharedPtr msg) {
+[8.560s]       |              [01;36m[K^[m[K
+[8.561s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.561s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.561s]       |                       [01;36m[K^~~[m[K
+[8.561s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.561s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.561s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.561s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.561s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.562s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.562s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.563s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:43:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.563s]    43 |                     RCLCPP_WARN_THROTTLE([01;31m[Knh_[m[K->get_logger(), *nh_->get_clock(), 2000,
+[8.563s]       |                                          [01;31m[K^~~[m[K
+[8.563s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:40:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.563s]    40 |         [this[01;36m[K][m[K(const geometry_msgs::msg::Twist::SharedPtr msg) {
+[8.563s]       |              [01;36m[K^[m[K
+[8.563s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.563s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.564s]       |                       [01;36m[K^~~[m[K
+[8.564s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.564s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.565s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.565s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.565s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.565s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.566s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.566s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:49:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.566s]    49 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Exception in TwistCmdCallback: %s", e.what());
+[8.566s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.566s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:49:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.566s]    49 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Exception in TwistCmdCallback: %s", e.what());
+[8.566s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.567s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:49:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.567s]    49 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Exception in TwistCmdCallback: %s", e.what());
+[8.567s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.567s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.567s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.567s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.567s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.567s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.568s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.568s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.568s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.569s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:49:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.569s]    49 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Exception in TwistCmdCallback: %s", e.what());
+[8.569s]       |                              [01;31m[K^~~[m[K
+[8.569s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:40:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.569s]    40 |         [this[01;36m[K][m[K(const geometry_msgs::msg::Twist::SharedPtr msg) {
+[8.569s]       |              [01;36m[K^[m[K
+[8.569s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.570s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.570s]       |                       [01;36m[K^~~[m[K
+[8.570s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.570s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.572s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.572s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.572s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:49:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.572s]    49 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Exception in TwistCmdCallback: %s", e.what());
+[8.572s]       |                              [01;31m[K^~~[m[K
+[8.572s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:40:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.573s]    40 |         [this[01;36m[K][m[K(const geometry_msgs::msg::Twist::SharedPtr msg) {
+[8.573s]       |              [01;36m[K^[m[K
+[8.573s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.573s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.573s]       |                       [01;36m[K^~~[m[K
+[8.573s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.575s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.575s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.575s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:51:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.575s]    51 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown exception in TwistCmdCallback");
+[8.575s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.576s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:51:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.576s]    51 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown exception in TwistCmdCallback");
+[8.576s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.576s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:51:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.576s]    51 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown exception in TwistCmdCallback");
+[8.577s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.577s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.578s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.578s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.578s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:51:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.579s]    51 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Unknown exception in TwistCmdCallback");
+[8.579s]       |                              [01;31m[K^~~[m[K
+[8.579s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:40:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.579s]    40 |         [this[01;36m[K][m[K(const geometry_msgs::msg::Twist::SharedPtr msg) {
+[8.579s]       |              [01;36m[K^[m[K
+[8.579s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.579s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.580s]       |                       [01;36m[K^~~[m[K
+[8.580s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.581s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.581s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.581s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:51:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.582s]    51 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Unknown exception in TwistCmdCallback");
+[8.582s]       |                              [01;31m[K^~~[m[K
+[8.582s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:40:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.582s]    40 |         [this[01;36m[K][m[K(const geometry_msgs::msg::Twist::SharedPtr msg) {
+[8.583s]       |              [01;36m[K^[m[K
+[8.583s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.583s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.583s]       |                       [01;36m[K^~~[m[K
+[8.583s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::SetupSubscription()[m[K’:
+[8.583s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:53:9:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[8.584s]    53 |         [01;35m[K}[m[K
+[8.584s]       |         [01;35m[K^[m[K
+[8.585s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:57:86:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[8.585s]    57 |     light_cmd_subscriber_ = nh_->create_subscription<tracer_msgs::msg::TracerLightCmd[01;31m[K>[m[K(
+[8.585s]       |                                                                                      [01;31m[K^[m[K
+[8.585s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:58:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[8.585s]    58 |         [01;35m[K"/tracer_light_control"[m[K, 5,
+[8.585s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.586s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.586s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.587s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.587s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.588s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.588s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.588s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.589s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.589s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.589s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.589s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.589s]    62 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.590s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.590s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.590s]    62 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.590s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.590s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.590s]    62 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.590s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.590s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:62:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.591s]    62 |                     RCLCPP_WARN_THROTTLE(nh_->get_logger(), *[01;31m[Knh_[m[K->get_clock(), 2000,
+[8.591s]       |                                                              [01;31m[K^~~[m[K
+[8.591s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:59:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.591s]    59 |         [this[01;36m[K][m[K(const tracer_msgs::msg::TracerLightCmd::SharedPtr msg) {
+[8.591s]       |              [01;36m[K^[m[K
+[8.591s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.591s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.591s]       |                       [01;36m[K^~~[m[K
+[8.592s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.593s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.593s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.593s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.593s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[8.593s]    62 |                     [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 2000,
+[8.594s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.594s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.595s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.595s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.595s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.595s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.596s]    62 |                     RCLCPP_WARN_THROTTLE([01;31m[Knh_[m[K->get_logger(), *nh_->get_clock(), 2000,
+[8.596s]       |                                          [01;31m[K^~~[m[K
+[8.596s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:59:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.596s]    59 |         [this[01;36m[K][m[K(const tracer_msgs::msg::TracerLightCmd::SharedPtr msg) {
+[8.596s]       |              [01;36m[K^[m[K
+[8.596s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.596s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.597s]       |                       [01;36m[K^~~[m[K
+[8.597s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.598s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.598s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.598s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:62:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.598s]    62 |                     RCLCPP_WARN_THROTTLE([01;31m[Knh_[m[K->get_logger(), *nh_->get_clock(), 2000,
+[8.599s]       |                                          [01;31m[K^~~[m[K
+[8.599s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:59:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.599s]    59 |         [this[01;36m[K][m[K(const tracer_msgs::msg::TracerLightCmd::SharedPtr msg) {
+[8.599s]       |              [01;36m[K^[m[K
+[8.599s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.599s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.599s]       |                       [01;36m[K^~~[m[K
+[8.599s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.601s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.601s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.601s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.601s]    68 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.601s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.601s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.602s]    68 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.602s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.602s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.602s]    68 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.602s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.602s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.604s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.604s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.604s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.605s]    68 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.605s]       |                              [01;31m[K^~~[m[K
+[8.605s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:59:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.605s]    59 |         [this[01;36m[K][m[K(const tracer_msgs::msg::TracerLightCmd::SharedPtr msg) {
+[8.605s]       |              [01;36m[K^[m[K
+[8.605s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.605s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.606s]       |                       [01;36m[K^~~[m[K
+[8.606s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.607s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.607s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.607s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.607s]    68 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Exception in LightCmdCallback: %s", e.what());
+[8.608s]       |                              [01;31m[K^~~[m[K
+[8.608s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:59:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.608s]    59 |         [this[01;36m[K][m[K(const tracer_msgs::msg::TracerLightCmd::SharedPtr msg) {
+[8.608s]       |              [01;36m[K^[m[K
+[8.608s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.608s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.608s]       |                       [01;36m[K^~~[m[K
+[8.609s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.610s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.610s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.610s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:70:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.610s]    70 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown exception in LightCmdCallback");
+[8.610s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.610s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:70:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.611s]    70 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown exception in LightCmdCallback");
+[8.611s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.611s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:70:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.611s]    70 |                 [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown exception in LightCmdCallback");
+[8.611s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[8.611s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.613s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.613s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.613s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:70:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.613s]    70 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Unknown exception in LightCmdCallback");
+[8.613s]       |                              [01;31m[K^~~[m[K
+[8.613s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:59:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.613s]    59 |         [this[01;36m[K][m[K(const tracer_msgs::msg::TracerLightCmd::SharedPtr msg) {
+[8.614s]       |              [01;36m[K^[m[K
+[8.614s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.614s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.614s]       |                       [01;36m[K^~~[m[K
+[8.614s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.616s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.616s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.616s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:70:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ is not captured
+[8.616s]    70 |                 RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Unknown exception in LightCmdCallback");
+[8.616s]       |                              [01;31m[K^~~[m[K
+[8.616s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:59:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.616s]    59 |         [this[01;36m[K][m[K(const tracer_msgs::msg::TracerLightCmd::SharedPtr msg) {
+[8.616s]       |              [01;36m[K^[m[K
+[8.617s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:34:23:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>nh_[m[K’ declared here
+[8.617s]    34 |     odom_publisher_ = [01;36m[Knh_[m[K->create_publisher<nav_msgs::msg::Odometry>(odom_frame_, 50);
+[8.617s]       |                       [01;36m[K^~~[m[K
+[8.617s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::SetupSubscription()[m[K’:
+[8.617s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:72:9:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[8.617s]    72 |         [01;35m[K}[m[K
+[8.617s]       |         [01;35m[K^[m[K
+[8.618s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.618s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.618s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.618s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.618s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.618s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.618s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.618s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.619s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.619s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.619s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:75:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.619s]    75 |     [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Subscriptions set up successfully");
+[8.619s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[8.619s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:75:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.620s]    75 |     [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Subscriptions set up successfully");
+[8.620s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[8.620s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:75:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.620s]    75 |     [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Subscriptions set up successfully");
+[8.620s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[8.620s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::TwistCmdCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.620s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:94:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.621s]    94 |         RCLCPP_DEBUG([01;31m[Knh_[m[K->get_logger(), "Sent motion command: linear=%.2f, angular=%.2f",
+[8.621s]       |                      [01;31m[K^~~[m[K
+[8.621s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:94:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.621s]    94 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Sent motion command: linear=%.2f, angular=%.2f",
+[8.621s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.621s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:94:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.622s]    94 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Sent motion command: linear=%.2f, angular=%.2f",
+[8.622s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.622s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:94:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.622s]    94 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Sent motion command: linear=%.2f, angular=%.2f",
+[8.622s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.622s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:98:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.622s]    98 |         RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Failed to send motion command: %s", e.what());
+[8.623s]       |                      [01;31m[K^~~[m[K
+[8.623s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:98:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.623s]    98 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Failed to send motion command: %s", e.what());
+[8.623s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.623s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:98:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.623s]    98 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Failed to send motion command: %s", e.what());
+[8.623s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.623s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:98:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.624s]    98 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Failed to send motion command: %s", e.what());
+[8.624s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.638s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.638s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:114:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.638s]   114 |         RCLCPP_INFO([01;31m[Knh_[m[K->get_logger(), "Simulated robot received light command");
+[8.638s]       |                     [01;31m[K^~~[m[K
+[8.638s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:114:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.638s]   114 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Simulated robot received light command");
+[8.639s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.639s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:114:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.639s]   114 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Simulated robot received light command");
+[8.639s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.639s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:114:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.639s]   114 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Simulated robot received light command");
+[8.639s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.653s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:125:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.653s]   125 |         RCLCPP_DEBUG([01;31m[Knh_[m[K->get_logger(), "Set light mode: %d, value: %d",
+[8.653s]       |                      [01;31m[K^~~[m[K
+[8.653s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:125:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.653s]   125 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Set light mode: %d, value: %d",
+[8.653s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.654s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:125:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.654s]   125 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Set light mode: %d, value: %d",
+[8.654s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.654s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:125:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.654s]   125 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Set light mode: %d, value: %d",
+[8.654s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.670s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:129:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.670s]   129 |         RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Failed to set light command: %s", e.what());
+[8.671s]       |                      [01;31m[K^~~[m[K
+[8.671s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:129:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.671s]   129 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Failed to set light command: %s", e.what());
+[8.671s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.671s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:129:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.671s]   129 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Failed to set light command: %s", e.what());
+[8.672s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.672s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:129:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.672s]   129 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Failed to set light command: %s", e.what());
+[8.672s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.685s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kbool westonrobot::TracerROSMessenger::PublishStateToROS()[m[K’:
+[8.686s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:138:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.686s]   138 |         RCLCPP_WARN_THROTTLE([01;31m[Knh_[m[K->get_logger(), *nh_->get_clock(), 5000,
+[8.686s]       |                              [01;31m[K^~~[m[K
+[8.686s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:138:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.686s]   138 |         [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.686s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.687s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:138:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.687s]   138 |         [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.687s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.687s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:138:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.687s]   138 |         [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.688s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.703s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.703s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:138:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[8.703s]   138 |         [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.704s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.720s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kbool westonrobot::TracerROSMessenger::PublishStateToROS()[m[K’:
+[8.720s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:145:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.720s]   145 |         RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Tracer pointer is null in PublishStateToROS");
+[8.720s]       |                      [01;31m[K^~~[m[K
+[8.720s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:145:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.720s]   145 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Tracer pointer is null in PublishStateToROS");
+[8.721s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.721s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:145:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.721s]   145 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Tracer pointer is null in PublishStateToROS");
+[8.721s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.721s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:145:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.721s]   145 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Tracer pointer is null in PublishStateToROS");
+[8.721s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.734s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:149:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.735s]   149 |     current_time_ = [01;31m[Knh_[m[K->now();
+[8.735s]       |                     [01;31m[K^~~[m[K
+[8.735s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.737s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.737s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.738s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.738s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.738s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.738s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.738s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.738s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:155:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.738s]   155 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "First publish, skipping data");
+[8.739s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.739s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:155:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.739s]   155 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "First publish, skipping data");
+[8.739s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.739s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:155:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.739s]   155 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "First publish, skipping data");
+[8.739s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.739s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:164:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.740s]   164 |         [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Invalid delta time: %.6f seconds, using safe value", dt);
+[8.740s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.740s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:164:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.740s]   164 |         [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Invalid delta time: %.6f seconds, using safe value", dt);
+[8.740s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.740s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:164:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.740s]   164 |         [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Invalid delta time: %.6f seconds, using safe value", dt);
+[8.741s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.741s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:180:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.741s]   180 |             [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.741s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.741s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:180:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.741s]   180 |             [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.741s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.741s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:180:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.742s]   180 |             [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.742s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.753s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In lambda function:
+[8.753s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:180:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+[8.753s]   180 |             [01;31m[KRCLCPP_WARN_THROTTLE[m[K(nh_->get_logger(), *nh_->get_clock(), 5000,
+[8.753s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.773s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kbool westonrobot::TracerROSMessenger::PublishStateToROS()[m[K’:
+[8.774s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:225:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.774s]   225 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Published state successfully");
+[8.774s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.774s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:225:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.775s]   225 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Published state successfully");
+[8.775s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.775s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:225:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.775s]   225 |         [01;31m[KRCLCPP_DEBUG[m[K(nh_->get_logger(), "Published state successfully");
+[8.775s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.775s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:228:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.775s]   228 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Error in PublishStateToROS: %s", e.what());
+[8.776s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.776s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:228:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.776s]   228 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Error in PublishStateToROS: %s", e.what());
+[8.776s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.776s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:228:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.776s]   228 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Error in PublishStateToROS: %s", e.what());
+[8.776s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.776s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.777s]   231 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown error in PublishStateToROS");
+[8.777s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.777s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.777s]   231 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown error in PublishStateToROS");
+[8.777s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.777s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:231:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.777s]   231 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Unknown error in PublishStateToROS");
+[8.777s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.794s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::PublishSimStateToROS(double, double)[m[K’:
+[8.794s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:243:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.794s]   243 |     current_time_ = [01;31m[Knh_[m[K->now();
+[8.794s]       |                     [01;31m[K^~~[m[K
+[8.810s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.810s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.812s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.812s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[8.812s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[8.812s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kbool westonrobot::TracerROSMessenger::AttemptReconnection(const string&)[m[K’:
+[8.812s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:268:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.812s]   268 |         RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "AttemptReconnection: tracer_ is null");
+[8.812s]       |                      [01;31m[K^~~[m[K
+[8.813s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:268:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.813s]   268 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "AttemptReconnection: tracer_ is null");
+[8.813s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.813s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:268:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.813s]   268 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "AttemptReconnection: tracer_ is null");
+[8.813s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.813s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:268:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.813s]   268 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "AttemptReconnection: tracer_ is null");
+[8.814s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.829s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:273:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.829s]   273 |         RCLCPP_INFO([01;31m[Knh_[m[K->get_logger(), "Attempting to reconnect to port: %s", port_name.c_str());
+[8.829s]       |                     [01;31m[K^~~[m[K
+[8.829s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:273:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.829s]   273 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Attempting to reconnect to port: %s", port_name.c_str());
+[8.830s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.830s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:273:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.830s]   273 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Attempting to reconnect to port: %s", port_name.c_str());
+[8.830s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.830s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:273:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.830s]   273 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Attempting to reconnect to port: %s", port_name.c_str());
+[8.830s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.845s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:276:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.845s]   276 |         RCLCPP_WARN([01;31m[Knh_[m[K->get_logger(), "Skipping Disconnect() - method not available");
+[8.845s]       |                     [01;31m[K^~~[m[K
+[8.845s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:276:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.845s]   276 |         [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Skipping Disconnect() - method not available");
+[8.846s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.846s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:276:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.846s]   276 |         [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Skipping Disconnect() - method not available");
+[8.846s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.846s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:276:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.846s]   276 |         [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Skipping Disconnect() - method not available");
+[8.846s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.861s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:283:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.862s]   283 |         RCLCPP_INFO([01;31m[Knh_[m[K->get_logger(), "Reconnection established");
+[8.862s]       |                     [01;31m[K^~~[m[K
+[8.862s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:283:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.862s]   283 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Reconnection established");
+[8.862s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.862s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:283:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.862s]   283 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Reconnection established");
+[8.863s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.863s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:283:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.863s]   283 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Reconnection established");
+[8.863s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.878s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:288:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.879s]   288 |         RCLCPP_INFO([01;31m[Knh_[m[K->get_logger(), "Commanded mode enabled");
+[8.879s]       |                     [01;31m[K^~~[m[K
+[8.879s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:288:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.879s]   288 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Commanded mode enabled");
+[8.879s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.879s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:288:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.880s]   288 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Commanded mode enabled");
+[8.880s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.880s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:288:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.880s]   288 |         [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Commanded mode enabled");
+[8.880s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.897s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:295:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.897s]   295 |             RCLCPP_INFO([01;31m[Knh_[m[K->get_logger(), "Battery after reconnect: %.1fV",
+[8.897s]       |                         [01;31m[K^~~[m[K
+[8.897s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:295:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.897s]   295 |             [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Battery after reconnect: %.1fV",
+[8.897s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[8.898s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:295:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.898s]   295 |             [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Battery after reconnect: %.1fV",
+[8.898s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[8.898s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:295:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.898s]   295 |             [01;31m[KRCLCPP_INFO[m[K(nh_->get_logger(), "Battery after reconnect: %.1fV",
+[8.898s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[8.914s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:304:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.914s]   304 |             RCLCPP_WARN([01;31m[Knh_[m[K->get_logger(), "Failed to read state after reconnect, assuming connected");
+[8.914s]       |                         [01;31m[K^~~[m[K
+[8.915s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:304:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.915s]   304 |             [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Failed to read state after reconnect, assuming connected");
+[8.915s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[8.915s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:304:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.915s]   304 |             [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Failed to read state after reconnect, assuming connected");
+[8.915s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[8.915s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:304:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.916s]   304 |             [01;31m[KRCLCPP_WARN[m[K(nh_->get_logger(), "Failed to read state after reconnect, assuming connected");
+[8.916s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[8.930s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:310:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[8.930s]   310 |         RCLCPP_ERROR([01;31m[Knh_[m[K->get_logger(), "Reconnection failed: %s", e.what());
+[8.930s]       |                      [01;31m[K^~~[m[K
+[8.930s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:310:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.930s]   310 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Reconnection failed: %s", e.what());
+[8.930s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.930s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:310:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.930s]   310 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Reconnection failed: %s", e.what());
+[8.931s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[8.931s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:310:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.931s]   310 |         [01;31m[KRCLCPP_ERROR[m[K(nh_->get_logger(), "Reconnection failed: %s", e.what());
+[8.931s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[10.878s] gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1
+[10.879s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2
+[10.880s] gmake: *** [Makefile:146: all] Error 2
+[10.888s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12

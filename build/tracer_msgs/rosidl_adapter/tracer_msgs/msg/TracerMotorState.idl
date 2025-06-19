@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tracer_msgs/msg/TracerMotorState.msg
+// generated code does not contain a copyright notice
+
+
+module tracer_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "float64 current")
+    struct TracerMotorState {
+      double rpm;
+    };
+  };
+};

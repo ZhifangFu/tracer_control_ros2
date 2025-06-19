@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::TwistCmdCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:68:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::TracerBaseV2::Connect()[m[K’
+   68 |     if (!tracer_ || ![01;31m[Ktracer_->Connect()[m[K) {
+      |                      [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp:13[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:17[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool westonrobot::TracerBaseV2::Connect(std::string)[m[K’
+   31 |   bool [01;36m[KConnect[m[K(std::string can_name) override {
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp:31:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:102:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::TracerBaseV2::Connect()[m[K’
+  102 |     if (!tracer_ || ![01;31m[Ktracer_->Connect()[m[K) {
+      |                      [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp:13[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:17[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool westonrobot::TracerBaseV2::Connect(std::string)[m[K’
+   31 |   bool [01;36m[KConnect[m[K(std::string can_name) override {
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp:31:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::PublishStateToROS()[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:138:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kwestonrobot::TracerBaseV2::Connect()[m[K’
+  138 |     if (![01;31m[Ktracer_->Connect()[m[K) {
+      |          [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp:13[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:17[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool westonrobot::TracerBaseV2::Connect(std::string)[m[K’
+   31 |   bool [01;36m[KConnect[m[K(std::string can_name) override {
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/root/tracer_control_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp:31:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

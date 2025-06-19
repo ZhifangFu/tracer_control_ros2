@@ -1,0 +1,171 @@
+[0.027s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_base
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.294s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.499s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.499s] -- Detecting C compile features
+[0.500s] -- Detecting C compile features - done
+[0.509s] -- Detecting CXX compiler ABI info
+[0.689s] -- Detecting CXX compiler ABI info - done
+[0.713s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.713s] -- Detecting CXX compile features
+[0.715s] -- Detecting CXX compile features - done
+[0.724s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.095s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.254s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.335s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.433s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.444s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.465s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.629s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.635s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.862s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.939s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.082s] -- Looking for pthread.h
+[2.254s] -- Looking for pthread.h - found
+[2.255s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.435s] -- Found Threads: TRUE  
+[2.562s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.629s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.657s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.848s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.888s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.891s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.891s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.898s] -- Found tracer_msgs: 0.3.3 (/root/tracer_control_ws/install/tracer_msgs/share/tracer_msgs/cmake)
+[2.928s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.973s] [33mCMake Warning at CMakeLists.txt:43 (message):
+[2.973s]   libsocketcan not found - CAN support may be limited
+[2.973s] 
+[2.974s] [0m
+[2.974s] [33mCMake Warning at CMakeLists.txt:51 (message):
+[2.974s]   libpcan not found - PCAN support disabled
+[2.974s] 
+[2.974s] [0m
+[5.404s] [33mCMake Warning at CMakeLists.txt:161 (message):
+[5.405s]   config directory not found, skipping
+[5.405s] 
+[5.405s] [0m
+[5.408s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.616s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.619s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.625s] -- Configured cppcheck include dirs: /root/tracer_control_ws/src/tracer_ros/tracer_base/include
+[5.625s] -- Configured cppcheck exclude dirs and/or files: 
+[5.627s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.628s] -- Configured cpplint exclude dirs and/or files: 
+[5.629s] -- Added test 'lint_cmake' to check CMake code style
+[5.634s] -- Added test 'uncrustify' to check C / C++ code style
+[5.634s] -- Configured uncrustify additional arguments: 
+[5.635s] -- Added test 'xmllint' to check XML markup files
+[5.642s] -- Configuring done
+[6.890s] -- Generating done
+[6.955s] -- Build files have been written to: /root/tracer_control_ws/build/tracer_base
+[6.998s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake /root/tracer_control_ws/src/tracer_ros/tracer_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/tracer_control_ws/install/tracer_base
+[7.005s] Invoking command in '/root/tracer_control_ws/build/tracer_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12
+[7.146s] [ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[15.305s] In file included from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[15.306s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:61:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[15.306s]    61 |     rclcpp::Publisher<tracer_msgs/msg/TracerStatus[01;31m[K>[m[K::SharedPtr status_publisher_;
+[15.306s]       |                                                   [01;31m[K^[m[K
+[15.307s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:61:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[15.307s]    61 |     rclcpp::Publisher<tracer_msgs/msg/TracerStatus>::[01;31m[KSharedPtr[m[K status_publisher_;
+[15.307s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[15.307s]       |                                                               [32m[K;[m[K
+[15.315s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:61:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher_[m[K’ does not name a type
+[15.316s]    61 |     rclcpp::Publisher<tracer_msgs/msg/TracerStatus>::SharedPtr [01;31m[Kstatus_publisher_[m[K;
+[15.316s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[15.567s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::SetupSubscription()[m[K’:
+[15.567s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_publisher_[m[K’?
+[15.567s]    35 |     [01;31m[Kstatus_publisher_[m[K = nh_->create_publisher<tracer_msgs::msg::TracerStatus>("/tracer_status", 10);
+[15.567s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[15.567s]       |     [32m[Kodom_publisher_[m[K
+[15.627s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kbool westonrobot::TracerROSMessenger::PublishStateToROS()[m[K’:
+[15.628s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:208:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _motor_states_type = struct std::array<tracer_msgs::msg::TracerMotorState_<std::allocator<void> >, 2>[m[K’ {aka ‘[01m[Kstruct std::array<tracer_msgs::msg::TracerMotorState_<std::allocator<void> >, 2>[m[K’} has no member named ‘[01m[Kresize[m[K’; did you mean ‘[01m[Ksize[m[K’?
+[15.628s]   208 |         status_msg->motor_states.[01;31m[Kresize[m[K(motor_count);
+[15.628s]       |                                  [01;31m[K^~~~~~[m[K
+[15.628s]       |                                  [32m[Ksize[m[K
+[15.654s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:219:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_publisher_[m[K’?
+[15.654s]   219 |         [01;31m[Kstatus_publisher_[m[K->publish(std::move(status_msg));
+[15.655s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[15.655s]       |         [32m[Kodom_publisher_[m[K
+[15.656s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:222:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float&, double, double)[m[K’
+[15.656s]   222 |         double safe_linear = [01;31m[Kstd::clamp(robot_state.motion_state.linear_velocity, -5.0, 5.0)[m[K;
+[15.656s]       |                              [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.656s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[15.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[15.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.657s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[15.657s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[15.657s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[15.657s]  3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[15.658s]       |     [01;36m[K^~~~~[m[K
+[15.658s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.659s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:222:40:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[15.659s]   222 |         double safe_linear = [01;36m[Kstd::clamp(robot_state.motion_state.linear_velocity, -5.0, 5.0)[m[K;
+[15.659s]       |                              [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.660s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[15.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[15.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.661s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[15.661s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[15.661s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[15.662s]  3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[15.662s]       |     [01;36m[K^~~~~[m[K
+[15.662s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.662s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:222:40:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[15.663s]   222 |         double safe_linear = [01;36m[Kstd::clamp(robot_state.motion_state.linear_velocity, -5.0, 5.0)[m[K;
+[15.663s]       |                              [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.663s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:223:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float&, double, double)[m[K’
+[15.663s]   223 |         double safe_angular = [01;31m[Kstd::clamp(robot_state.motion_state.angular_velocity, -3.14, 3.14)[m[K;
+[15.663s]       |                               [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.664s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[15.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[15.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.664s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[15.664s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[15.665s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[15.665s]  3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[15.665s]       |     [01;36m[K^~~~~[m[K
+[15.665s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.665s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:223:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[15.665s]   223 |         double safe_angular = [01;36m[Kstd::clamp(robot_state.motion_state.angular_velocity, -3.14, 3.14)[m[K;
+[15.665s]       |                               [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.665s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[15.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[15.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[15.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[15.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.666s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/include/tracer_base/tracer_messenger.hpp:9[m[K,
+[15.666s]                  from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:1[m[K:
+[15.666s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[15.666s]  3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[15.667s]       |     [01;36m[K^~~~~[m[K
+[15.667s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.668s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:223:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[15.668s]   223 |         double safe_angular = [01;36m[Kstd::clamp(robot_state.motion_state.angular_velocity, -3.14, 3.14)[m[K;
+[15.668s]       |                               [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.687s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::PublishSimStateToROS(double, double)[m[K’:
+[15.687s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:263:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_publisher_[m[K’?
+[15.687s]   263 |     [01;31m[Kstatus_publisher_[m[K->publish(std::move(status_msg));
+[15.688s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[15.688s]       |     [32m[Kodom_publisher_[m[K
+[15.689s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kbool westonrobot::TracerROSMessenger::AttemptReconnection(const string&)[m[K’:
+[15.690s] [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:281:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class westonrobot::TracerBaseV2[m[K’ {aka ‘[01m[Kclass westonrobot::TracerBaseV2[m[K’} has no member named ‘[01m[KDisconnect[m[K’; did you mean ‘[01m[KConnect[m[K’?
+[15.690s]   281 |             tracer_->[01;31m[KDisconnect[m[K();
+[15.690s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[15.690s]       |                      [32m[KConnect[m[K
+[24.491s] gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1
+[24.492s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2
+[24.492s] gmake: *** [Makefile:146: all] Error 2
+[24.497s] Invoked command in '/root/tracer_control_ws/build/tracer_base' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/root/tracer_control_ws/install/ugv_sdk:/root/tracer_control_ws/install/tracer_msgs:/root/tracer_control_ws/install/tracer_base LD_LIBRARY_PATH=/root/tracer_control_ws/install/tracer_msgs/lib:/root/tracer_control_ws/install/tracer_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /root/tracer_control_ws/build/tracer_base -- -j12 -l12

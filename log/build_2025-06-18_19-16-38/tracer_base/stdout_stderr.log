@@ -1,0 +1,78 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[ 50%] Built target tracer_messenger
+[35m[1mConsolidate compiler generated dependencies of target tracer_base_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:7[m[K:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:26:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kstd::__shared_ptr<westonrobot::TracerBaseV2, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kwestonrobot::TracerBaseV2*[m[K’} [[01;35m[K-Wformat=[m[K]
+   26 |     RCLCPP_INFO(node->get_logger(), [01;35m[K"Robot object created at %p"[m[K, [32m[Krobot.get()[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+      |                                                                            [32m[K|[m[K
+      |                                                                            [32m[Kstd::__shared_ptr<westonrobot::TracerBaseV2, __gnu_cxx::_S_atomic>::element_type* {aka westonrobot::TracerBaseV2*}[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:26:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   26 |     RCLCPP_INFO(node->get_logger(), "Robot object created at [01;36m[K%p[m[K", robot.get());
+      |                                                              [01;36m[K~^[m[K
+      |                                                               [01;36m[K|[m[K
+      |                                                               [01;36m[Kvoid*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:7[m[K:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:30:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%p[m[K’ expects argument of type ‘[01m[Kvoid*[m[K’, but argument 5 has type ‘[01m[Kstd::__shared_ptr<westonrobot::TracerROSMessenger, __gnu_cxx::_S_atomic>::element_type*[m[K’ {aka ‘[01m[Kwestonrobot::TracerROSMessenger*[m[K’} [[01;35m[K-Wformat=[m[K]
+   30 |     RCLCPP_INFO(node->get_logger(), [01;35m[K"Messenger object created at %p"[m[K, [32m[Kmessenger.get()[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                                                                    [32m[K|[m[K
+      |                                                                                    [32m[Kstd::__shared_ptr<westonrobot::TracerROSMessenger, __gnu_cxx::_S_atomic>::element_type* {aka westonrobot::TracerROSMessenger*}[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_base_node.cpp:30:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   30 |     RCLCPP_INFO(node->get_logger(), "Messenger object created at [01;36m[K%p[m[K", messenger.get());
+      |                                                                  [01;36m[K~^[m[K
+      |                                                                   [01;36m[K|[m[K
+      |                                                                   [01;36m[Kvoid*[m[K
+[100%] [32m[1mLinking CXX executable tracer_base_node[0m
+[100%] Built target tracer_base_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/lib/libtracer_messenger.a
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/include/tracer_base/tracer_messenger.hpp
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/launch/tracer_base.launch
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/urdf/agilex_tracer.urdf
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/library_path.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.bash
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.sh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.dsv
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+-- Symlinking: /root/tracer_control_ws/install/tracer_base/share/tracer_base/package.xml

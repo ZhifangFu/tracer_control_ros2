@@ -1,0 +1,7 @@
+/root/tracer_control_ws/src/tracer_ros/tracer_msgs/build/tracer_msgs/rosidl_adapter/tracer_msgs:msg/TracerMotorState.idl
+/root/tracer_control_ws/src/tracer_ros/tracer_msgs/build/tracer_msgs/rosidl_adapter/tracer_msgs:msg/UartTracerMotorState.idl
+/root/tracer_control_ws/src/tracer_ros/tracer_msgs/build/tracer_msgs/rosidl_adapter/tracer_msgs:msg/TracerLightState.idl
+/root/tracer_control_ws/src/tracer_ros/tracer_msgs/build/tracer_msgs/rosidl_adapter/tracer_msgs:msg/TracerLightCmd.idl
+/root/tracer_control_ws/src/tracer_ros/tracer_msgs/build/tracer_msgs/rosidl_adapter/tracer_msgs:msg/TracerStatus.idl
+/root/tracer_control_ws/src/tracer_ros/tracer_msgs/build/tracer_msgs/rosidl_adapter/tracer_msgs:msg/TracerRsStatus.idl
+/root/tracer_control_ws/src/tracer_ros/tracer_msgs/build/tracer_msgs/rosidl_adapter/tracer_msgs:msg/UartTracerStatus.idl

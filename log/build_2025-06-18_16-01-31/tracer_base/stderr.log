@@ -1,0 +1,39 @@
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:[m[K In member function ‘[01m[Kvoid westonrobot::TracerROSMessenger::LightCmdCallback(tracer_msgs::msg::TracerLightCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:66:18:[m[K [01;31m[Kerror: [m[K‘[01m[KLightCommand[m[K’ is not a member of ‘[01m[Kwestonrobot[m[K’
+   66 |     westonrobot::[01;31m[KLightCommand[m[K cmd;
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:72:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd[m[K’ was not declared in this scope; did you mean ‘[01m[Krcmd[m[K’?
+   72 |           [01;31m[Kcmd[m[K.front_light.mode = AgxLightMode::LIGHT_CONST_OFF;
+      |           [01;31m[K^~~[m[K
+      |           [32m[Krcmd[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:72:48:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_CONST_OFF[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   72 |           cmd.front_light.mode = AgxLightMode::[01;31m[KLIGHT_CONST_OFF[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:75:48:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_CONST_ON[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   75 |           cmd.front_light.mode = AgxLightMode::[01;31m[KLIGHT_CONST_ON[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:78:48:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_BREATH[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   78 |           cmd.front_light.mode = AgxLightMode::[01;31m[KLIGHT_BREATH[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:81:48:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_CUSTOM[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   81 |           cmd.front_light.mode = AgxLightMode::[01;31m[KLIGHT_CUSTOM[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:84:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd[m[K’ was not declared in this scope; did you mean ‘[01m[Krcmd[m[K’?
+   84 |       [01;31m[Kcmd[m[K.front_light.custom_value = msg->front_custom_value;
+      |       [01;31m[K^~~[m[K
+      |       [32m[Krcmd[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:89:47:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_CONST_OFF[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   89 |           cmd.rear_light.mode = AgxLightMode::[01;31m[KLIGHT_CONST_OFF[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:92:47:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_CONST_ON[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   92 |           cmd.rear_light.mode = AgxLightMode::[01;31m[KLIGHT_CONST_ON[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:95:47:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_BREATH[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   95 |           cmd.rear_light.mode = AgxLightMode::[01;31m[KLIGHT_BREATH[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/tracer_control_ws/src/tracer_ros/tracer_base/src/tracer_messenger.cpp:98:47:[m[K [01;31m[Kerror: [m[K‘[01m[KLIGHT_CUSTOM[m[K’ is not a member of ‘[01m[KAgxLightMode[m[K’
+   98 |           cmd.rear_light.mode = AgxLightMode::[01;31m[KLIGHT_CUSTOM[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tracer_messenger.dir/build.make:76: CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/tracer_messenger.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

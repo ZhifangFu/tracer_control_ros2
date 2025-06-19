@@ -1,0 +1,1 @@
+/root/tracer_control_ws/build/tracer_msgs/rosidl_typesupport_fastrtps_c/tracer_msgs/msg/detail/uart_tracer_motor_state__rosidl_typesupport_fastrtps_c.h

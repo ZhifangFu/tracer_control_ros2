@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_messenger[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracer_messenger.dir/src/tracer_messenger.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libtracer_messenger.a[0m
+[ 50%] Built target tracer_messenger
+[ 75%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m

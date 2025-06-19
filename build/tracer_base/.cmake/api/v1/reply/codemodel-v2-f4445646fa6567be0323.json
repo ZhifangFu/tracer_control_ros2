@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e37dd8c030188ba5d06a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tracer_base",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tracer_base_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracer_base_node-5a2df04519057cd63b6c.json",
+					"name" : "tracer_base_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracer_base_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracer_base_uninstall-25b98a281c5c10aa7920.json",
+					"name" : "tracer_base_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracer_messenger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracer_messenger-409e863c89dac920f62e.json",
+					"name" : "tracer_messenger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-27d2cea4aaa3352f6504.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/tracer_control_ws/build/tracer_base",
+		"source" : "/root/tracer_control_ws/src/tracer_ros/tracer_base"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
