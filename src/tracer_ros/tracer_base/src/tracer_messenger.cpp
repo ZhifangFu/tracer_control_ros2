@@ -350,7 +350,7 @@ void TracerROSMessenger::PublishOdometryToROS(double linear, double angular, dou
     tf_msg.transform.translation.z = 0.0;
     tf_msg.transform.rotation = odom_quat;
 
-    tf_broadcaster_->sendTransform(tf_msg);
+    // tf_broadcaster_->sendTransform(tf_msg);
 
     // Publish odometry message
     auto odom_msg = std::make_unique<nav_msgs::msg::Odometry>();

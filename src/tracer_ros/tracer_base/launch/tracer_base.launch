@@ -10,8 +10,8 @@ def generate_launch_description():
             output='screen',
             parameters=[{
                 'port_name': 'can2',  # 修改为您的CAN端口
-                'odom_frame': 'body',
-                'base_frame': 'base_link',
+                'odom_frame': 'camera_init',
+                'base_frame': 'body_2d',
                 'simulated_robot': False
             }]
         )

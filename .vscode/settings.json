@@ -75,5 +75,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/root/tracer_control_ws/src/ugv_sdk/sample/utils_demo"
 }
